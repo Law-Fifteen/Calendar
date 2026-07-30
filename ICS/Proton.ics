@@ -1,0 +1,2101 @@
+BEGIN:VCALENDAR
+PRODID:-//Proton AG//WebCalendar 5.0.403.0.a//EN
+VERSION:2.0
+METHOD:PUBLISH
+CALSCALE:GREGORIAN
+X-WR-TIMEZONE:America/Denver
+X-WR-CALNAME:My calendar
+BEGIN:VTIMEZONE
+TZID:America/Denver
+LAST-MODIFIED:20250218T131521Z
+X-LIC-LOCATION:America/Denver
+BEGIN:DAYLIGHT
+TZNAME:MDT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:MST
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:America/New_York
+LAST-MODIFIED:20250218T131521Z
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZNAME:EDT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:EST
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+LAST-MODIFIED:20250218T131521Z
+X-LIC-LOCATION:America/Chicago
+BEGIN:DAYLIGHT
+TZNAME:CDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CST
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+LAST-MODIFIED:20250218T131521Z
+X-LIC-LOCATION:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZNAME:PDT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:PST
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:America/Phoenix
+LAST-MODIFIED:20250218T131521Z
+X-LIC-LOCATION:America/Phoenix
+BEGIN:STANDARD
+TZNAME:MST
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0700
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+LAST-MODIFIED:20250218T131521Z
+X-LIC-LOCATION:Europe/Paris
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:America/Detroit
+LAST-MODIFIED:20250218T131521Z
+X-LIC-LOCATION:America/Detroit
+BEGIN:DAYLIGHT
+TZNAME:EDT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:EST
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:original-uid-98ea58ff-64cd-4316-a1b2-036c11a40e7e-sha1-uid-33433747c0c3
+ 2b416ae8a32c449660860fddbd50
+DTSTAMP:20240311T212630Z
+DTSTART;TZID=America/Denver:20240314T110000
+DTEND;TZID=America/Denver:20240314T113000
+SEQUENCE:0
+DESCRIPTION:Hi Morgan Ambrose\,\n\nThanks for sending along your availabili
+ ty for a call. I've scheduled your phone interview for Thursday\, Mar 14\, 
+ 2024 11:00am-11:30am MDT. I'll plan to call you at 3134667426.\n\nFeel free
+  to reach out with any questions\, and please confirm receipt.\n\nLooking f
+ orward to speaking with you!\n\nWhitney\nezCater
+SUMMARY:Interview with ezCater\, Inc
+BEGIN:VALARM
+DESCRIPTION:Interview with ezCater\, Inc
+TRIGGER:-PT15M
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+SUMMARY:Interview with ezCater\, Inc
+DESCRIPTION:Interview with ezCater\, Inc
+ATTENDEE:mailto:MorganAmbrose@proton.me
+TRIGGER:-PT15M
+ACTION:EMAIL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN=Virtual Interview with Chelsy (Enterprise):mailto:VirtualInter
+ viewwithChelsyEnterprise@default.enterprise.com
+UID:040000008200E00074C5B7101A82E00800000000B6AC4D64B386DA01000000000000000
+ 010000000B6F8D5F11D5B1143B014D8EC66BBACC8
+DTSTART;TZID=America/Denver:20240405T140000
+DTEND;TZID=America/Denver:20240405T142000
+DTSTAMP:20240404T171323Z
+SEQUENCE:1
+DESCRIPTION;LANGUAGE=en-US:Your appointment will be with Rafferty\, Chelsy 
+ M.\n\nVirtual Interview with Chelsy (Enterprise)\n\n\nManage Booking<https:
+ //outlook.office365.com:443/owa/calendar/VirtualInterviewwithChelsyEnterpri
+ se@default.enterprise.com/bookings/P8T6JXN5FEmKHToznxv0SA2>\n\nJoin the Tea
+ ms Meeting from your mobile web browser:\n https://visit.teams.microsoft.co
+ m/webrtc-svc/api/route?tid=5a9bb941-ba53-48d3-b086-2927fea7bf01&convId=19:m
+ eeting_OWUzM2UwMmQtNmVjOC00MjY1LTk3NTctNGE4NWY5NmFiZTFm@thread.v2&oid=ab609
+ b19-d8b2-4092-9c89-f8dbcd4fafb0&JoinWebUrl=https%3a%2f%2fteams.microsoft.co
+ m%2fl%2fmeetup-join%2f19%253ameeting_OWUzM2UwMmQtNmVjOC00MjY1LTk3NTctNGE4NW
+ Y5NmFiZTFm%2540thread.v2%2f0%3fcontext%3d%257b%2522Tid%2522%253a%25225a9bb9
+ 41-ba53-48d3-b086-2927fea7bf01%2522%252c%2522Oid%2522%253a%2522ab609b19-d8b
+ 2-4092-9c89-f8dbcd4fafb0%2522%257d%26webjoin%3dtrue%26unified%3dtrue&bid=Vi
+ rtualInterviewwithChelsyEnterprise@default.enterprise.com&biz=0&aE=True&ssi
+ d=P8T6JXN5FEmKHToznxv0SA2\n If you're joining from another device\, use the
+  link below.\n\nMicrosoft Teams\n\nNeed help? https://aka.ms/JoinTeamsMeeti
+ ng?omkt=en-US\n\nJoin the meeting now: https://teams.microsoft.com/l/meetup
+ -join/19%3ameeting_OWUzM2UwMmQtNmVjOC00MjY1LTk3NTctNGE4NWY5NmFiZTFm%40threa
+ d.v2/0?context=%7b%22Tid%22%3a%225a9bb941-ba53-48d3-b086-2927fea7bf01%22%2c
+ %22Oid%22%3a%22ab609b19-d8b2-4092-9c89-f8dbcd4fafb0%22%7d\n\nMeeting ID: 25
+ 9 200 907 148\nPasscode: oR6Vod\n\n\n\n\n\nFor organizers:\n\nMeeting optio
+ ns: https://teams.microsoft.com/meetingOptions/?organizerId=ab609b19-d8b2-4
+ 092-9c89-f8dbcd4fafb0&tenantId=5a9bb941-ba53-48d3-b086-2927fea7bf01&threadI
+ d=19_meeting_OWUzM2UwMmQtNmVjOC00MjY1LTk3NTctNGE4NWY5NmFiZTFm@thread.v2&mes
+ sageId=0&language=en-US\nReset dial-in PIN: https://dialin.teams.microsoft.
+ com/usp/pstnconferencing\n\n\n\n\n
+SUMMARY;LANGUAGE=en-US:20-minute Virtual Interview
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN=Morgan Ambrose;X-PM-TOKEN=3dfd0
+ f19eb63c860d3693d09381f1cf6a59b3cd4;PARTSTAT=NEEDS-ACTION:mailto:MorganAmbr
+ ose@proton.me
+END:VEVENT
+BEGIN:VEVENT
+UID:040000008200E00074C5B7101A82E008000000003CE1B82E5C8CDA01000000000000000
+ 010000000D9256D8345A42B43B5B6E1899DE5A170
+DTSTART:20240417T190000Z
+DTEND:20240417T193000Z
+DTSTAMP:20240411T220411Z
+ORGANIZER;CN=GraybarJobs@graybar.com:mailto:GraybarJobs@graybar.com
+SEQUENCE:0
+DESCRIPTION:Interview Details \n \nContact: kariely.ortiz@graybar.com \n \n
+LOCATION:Interviewer to call Morgan Ambrose at (313) 466-7426
+SUMMARY:Your phone meeting at Graybar
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+ATTENDEE;CN=Morgan Ambrose Naranjo;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;R
+ SVP=TRUE;X-NUM-GUESTS=0;X-PM-TOKEN=51742089c544ab99623f31cceab9e3f3aba4c8b6
+ ;PARTSTAT=NEEDS-ACTION:mailto:MorganAmbrose@proton.me
+ATTENDEE;CN=GraybarJobs@graybar.com;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;
+ RSVP=TRUE;X-NUM-GUESTS=0;X-PM-TOKEN=29b20005fe327becfb40e0779d4a4d65429ac11
+ 1;PARTSTAT=NEEDS-ACTION:mailto:GraybarJobs@graybar.com
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN=Farmers Insurance - Spencer Villa:mailto:FarmersInsuranceSpenc
+ erVilla@Farmersinsurance.com
+UID:040000008200E00074C5B7101A82E00800000000050DAA8CD69CDA01000000000000000
+ 010000000281718B3DA335E4CB4D4C2E63F58D269
+DTSTART;TZID=America/Denver:20240506T100000
+DTEND;TZID=America/Denver:20240506T103000
+DTSTAMP:20240502T212026Z
+SEQUENCE:1
+DESCRIPTION;LANGUAGE=en-US:Farmers Insurance - Spencer Villa\nMain Offices:
+  Woodland Hills\, CA • Phoenix\, AZ • Austin\, TX • Olathe\, KS • G
+ rand Rapids\, MI\nhttp://www.farmers.com/careers\n\nManage Booking<https://
+ outlook.office365.com:443/owa/calendar/FarmersInsuranceSpencerVilla@Farmers
+ insurance.com/bookings/zDdi6MOTvEu9NLzfIozY_A2>\n\nAdditional Information\n
+ -------------------------------------\nFarmers® is one of Fortune’s 100 
+ Best Companies to Work For®<http://fortune.com/best-companies/list>\nRead 
+ about our certified great workplace culture!<http://reviews.greatplacetowor
+ k.com/farmers-insurance>\nFollow us on Instagram<https://www.instagram.com/
+ thisisfarmers/>\nAdd us on LinkedIn<https://www.linkedin.com/company/farmer
+ s-insurance/>\nLearn more about Life at Farmers<http://www.farmers.com/care
+ ers>\n\n
+SUMMARY;LANGUAGE=en-US:Phone Interview  - Morgan Ambrose Naranjo
+LOCATION;LANGUAGE=en-US:Spencer will call you
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN=Morgan Ambrose Naranjo ;X-PM-TO
+ KEN=df7e92a675c44b62c2e51b08d17f504f5d567843;PARTSTAT=NEEDS-ACTION:mailto:M
+ organAmbrose@proton.me
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240514T161000
+DTEND;TZID=America/New_York:20240514T165500
+DTSTAMP:20240510T203120Z
+ORGANIZER;CN=Bonnie Alexander:mailto:bonnie@botkeeper.com
+UID:9vta32pdjbm70p24ichehsg95g@google.com
+SEQUENCE:0
+DESCRIPTION:<p></p>\nBonnie Alexander is inviting you to a scheduled Zoom m
+ eeting.\n\nTopic: Retention Specialist Opportunity - MorganAmbrose\nTime: M
+ ay 14\, 2024 04:10 PM Eastern Time (US and Canada)\n\nJoin Zoom Meeting\nht
+ tps://botkeeper.zoom.us/j/3182122889?omn=82316257005\n\nMeeting ID: 318 212
+  2889\n\n---\n\nOne tap mobile\n+13052241968\,\,3182122889# US\n+1309205332
+ 5\,\,3182122889# US\n\n---\n\nDial by your location\n• +1 305 224 1968 US
+ \n• +1 309 205 3325 US\n• +1 312 626 6799 US (Chicago)\n• +1 646 931 
+ 3860 US\n• +1 929 436 2866 US (New York)\n• +1 301 715 8592 US (Washing
+ ton DC)\n• +1 253 205 0468 US\n• +1 253 215 8782 US (Tacoma)\n• +1 34
+ 6 248 7799 US (Houston)\n• +1 360 209 5623 US\n• +1 386 347 5053 US\n
+ • +1 507 473 4847 US\n• +1 564 217 2000 US\n• +1 669 444 9171 US\n•
+  +1 669 900 6833 US (San Jose)\n• +1 689 278 1000 US\n• +1 719 359 4580
+  US\n• +1 780 666 0144 Canada\n• +1 204 272 7920 Canada\n• +1 438 809
+  7799 Canada\n• +1 587 328 1099 Canada\n• +1 647 374 4685 Canada\n• +
+ 1 647 558 0588 Canada\n• +1 778 907 2071 Canada\n• +61 3 7018 2005 Aust
+ ralia\n• +61 7 3185 3730 Australia\n• +61 8 6119 3900 Australia\n• +6
+ 1 8 7150 1149 Australia\n• +61 2 8015 6011 Australia\n• +44 330 088 583
+ 0 United Kingdom\n• +44 131 460 1196 United Kingdom\n• +44 203 481 5237
+  United Kingdom\n• +44 203 481 5240 United Kingdom\n• +44 203 901 7895 
+ United Kingdom\n• +44 208 080 6591 United Kingdom\n• +44 208 080 6592 U
+ nited Kingdom\n\nMeeting ID: 318 212 2889\n\nFind your local number: https:
+ //botkeeper.zoom.us/u/kev3EunM1F\n\n<br><b>Need to make changes?</b><br><ul
+ ><li>Reschedule:&nbsp\;<a href="https://app.hubspot.com/meetings/bonnie-ale
+ xander/bonnies-interview-calendar-link-retention-specialist?rescheduleId=8b
+ 66faa7c8e2a22f2735ee16fb1c2d0c&ms=1">https://app.hubspot.com/meetings/bonni
+ e-alexander/bonnies-interview-calendar-link-retention-specialist?reschedule
+ Id=8b66faa7c8e2a22f2735ee16fb1c2d0c&ms=1</a></li><li>Cancel:&nbsp\;<a href=
+ "https://app.hubspot.com/meetings/bonnie-alexander/bonnies-interview-calend
+ ar-link-retention-specialist?cancelId=8b66faa7c8e2a22f2735ee16fb1c2d0c&ms=1
+ ">https://app.hubspot.com/meetings/bonnie-alexander/bonnies-interview-calen
+ dar-link-retention-specialist?cancelId=8b66faa7c8e2a22f2735ee16fb1c2d0c&ms=
+ 1</a></li></ul>
+LOCATION:https://botkeeper.zoom.us/j/3182122889?omn=82316257005
+SUMMARY:Retention Specialist Opportunity - MorganAmbrose
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Bonnie Alexand
+ er;X-NUM-GUESTS=0;X-PM-TOKEN=1374b8879b592b0ad25270aff28597cc773b4895;PARTS
+ TAT=ACCEPTED:mailto:bonnie@botkeeper.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Morgan Ambrose
+ ;X-NUM-GUESTS=0;X-PM-TOKEN=5c7140ecb42196d8ea3fd8940b66483a63abdffc;PARTSTA
+ T=NEEDS-ACTION:mailto:morganambrose@proton.me
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240702T173000Z
+DTEND:20240702T183000Z
+DTSTAMP:20240624T141658Z
+ORGANIZER;CN=Progressive Recruiting:mailto:interviews.Pk5acny-gev9xs@usprd-
+ ics-gw.hirevue.com
+UID:2b9717807fe72e6dc9d5d80e49b93c48@hirevue.com
+SEQUENCE:1
+SUMMARY:CONFIRMED PHONE INTERVIEW WITH Progressive
+DESCRIPTION:PHONE INTERVIEW WITH Progressive\n\n\nYour Progressive Phone In
+ terview is scheduled! We will be calling you at the number listed on your p
+ rofile. Reminder that the interview time will be in the time zone of the in
+ terviewer.\n\nTo best prepare for the interview\, please have your most rec
+ ent resume available as we will be going over your work history in more det
+ ail. Also\, we use behavioral-based questions in our interview process. We
+  ask that you be ready to share different examples from the ones already pr
+ ovided in your video interview. Finally\, please be sure you are in a distr
+ action free environment so that you will be at your best for our interview.
+   \n\nYou can find additional information to help you prepare by clicking
+  here.  ( https://www.progressive.com/careers/how-we-hire/application-next
+ -steps/interviewing/ )\n\n  POSITION: Progressive Phone Interview\n  WHEN: 
+ Tuesday\, Jul 02 10:30 a.m. - 11:30 a.m. PDT (UTC-0700)\n\nInterviews are 
+ in the Pacific Time Zone\n\nSelf-Scheduling\nNeed to make a change to your 
+ phone interview schedule?\n\n  Click here to reschedule or decline your pho
+ ne interview. ( https://progressive.hirevue.com/interviews/Pk5acny-gev9xs/s
+ chedule/ )\n\nBest regards\,\nWilmer Kinnsion(Pacific Time Zone) \nwilmer_e
+ _kinnison@progressive.com \n\n\nFor technical support\, please visit the Hi
+ reVue Help Center: https://hirevuesupport.zendesk.com\n\n\nPlease do not re
+ ply to this message. Replies are routed to an unmonitored mailbox.\n\nInter
+ view Code: Pk5acny-gev9xs\n\nPowered by HireVue\n
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Morgan Naranjo
+ ;X-PM-TOKEN=aab1d1588b73f49098c3eeca1ec8cb65014b2b5f;PARTSTAT=NEEDS-ACTION:
+ mailto:morganambrose@proton.me
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN=Powered by Performance:mailto:InitialStateFarmPhoneInterview@p
+ oweredbyperformance.net
+UID:040000008200E00074C5B7101A82E00800000000BD1E9FD315D3DA01000000000000000
+ 010000000334B6846C582E64298270DC0099C5440
+DTSTART;TZID=America/Denver:20240711T154000
+DTEND;TZID=America/Denver:20240711T160000
+DTSTAMP:20240710T220928Z
+SEQUENCE:1
+DESCRIPTION;LANGUAGE=en-US:Powered by Performance\n\n\nManage Booking<https
+ ://outlook.office365.com:443/owa/calendar/InitialStateFarmPhoneInterview@po
+ weredbyperformance.net/bookings/V_3rbXAoLE23THsg3VKZwA2>\n\nAdditional Info
+ rmation\n-------------------------------------\nYour initial phone intervie
+ w has been scheduled with your selected State Farm Agency.  Please be expec
+ ting a call from a (915) or (480) area code at your scheduled appointment t
+ ime as we want to ensure that we are able to reach you since we want to avo
+ id phone spamming blocks. We look forward to connecting with you.\n\nPowere
+ d by Performance is an elite hiring consultant that collaborates with State
+  Farm Agents to identify quality candidates for their State Farm Agencies.\
+ n\nState Farm agents are independent contractors who hire their own employe
+ es. State Farm agents’ employees are not employees of State Farm. Agents 
+ are responsible for and make all employment decisions regarding their emplo
+ yees.\n
+SUMMARY;LANGUAGE=en-US:Calendar 2 Initial Agency Phone Interview - Morgan N
+ aranjo
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN=Morgan Naranjo;X-PM-TOKEN=1491e
+ 7154578a0bbc88e17ec656c5366dded70b9;PARTSTAT=NEEDS-ACTION:mailto:MorganAmbr
+ ose@proton.me
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN=Larsen Joe:mailto:Joe.Larsen@sentry.com
+UID:040000008200E00074C5B7101A82E008000000008687BFDFA5D7DA01000000000000000
+ 0100000000954ADB57E337A43B25E82F869FA4EB9
+DTSTART;TZID=America/Chicago:20240719T150000
+DTEND;TZID=America/Chicago:20240719T160000
+DTSTAMP:20240716T173113Z
+SEQUENCE:0
+DESCRIPTION;LANGUAGE=en-US:Hello\,\n\n\nThe interview for the Direct Sales 
+ Representative position with Morgan Ambrose will take place on Friday\, Jul
+ y 19th at 2:00 pm MST/3:00 pm CST. This interview will take place over Micr
+ osoft Teams.\n\n\nMorgan: Please log into the interview link 5-10 minutes p
+ rior to your scheduled interview time to check the audio/video on your devi
+ ce.\n\n\nIf you cannot make this interview time or need to reschedule\, ple
+ ase reach out to me as soon as possible at joe.larsen@sentry.com or at (715
+ ) 295-5118.\n\n\nThank you\,\n\n\nJoe Larsen\n\nTalent Acquisition Speciali
+ st\n\n715-295-5118\n\nJoe.Larsen@sentry.com<mailto:Morgan.schalow@sentry.co
+ m>\n\n\nSentry Insurance\n\n1800 North Point Drive\n\nStevens Point\, Wisco
+ nsin 54481\n\n\n___________________________________________________________
+ _____________________\nMicrosoft Teams Need help?<https://aka.ms/JoinTeamsM
+ eeting?omkt=en-US>\nJoin the meeting now<https://teams.microsoft.com/l/meet
+ up-join/19%3ameeting_OTM3NTMwNTAtYmIzZC00Zjg5LTg0MWEtNmMwOWEzNDIxMWJh%40thr
+ ead.v2/0?context=%7b%22Tid%22%3a%22f0aa38d6-47be-4ddd-84bf-96d2256ddeec%22%
+ 2c%22Oid%22%3a%227b839109-91e6-4ed9-92f1-55b0f586bdde%22%7d>\nMeeting ID: 2
+ 22 408 598 847\nPasscode: zjHXfe\n________________________________\nFor org
+ anizers: Meeting options<https://teams.microsoft.com/meetingOptions/?organi
+ zerId=7b839109-91e6-4ed9-92f1-55b0f586bdde&tenantId=f0aa38d6-47be-4ddd-84bf
+ -96d2256ddeec&threadId=19_meeting_OTM3NTMwNTAtYmIzZC00Zjg5LTg0MWEtNmMwOWEzN
+ DIxMWJh@thread.v2&messageId=0&language=en-US>\n____________________________
+ ____________________________________________________\nThis e-mail is confid
+ ential. If you are not the intended recipient\, you must not disclose or us
+ e the information contained in it. If you have received this e-mail in erro
+ r\, please tell us immediately by return e-mail and delete the document. No
+  recipient may use the information in this e-mail in violation of any civil
+  or criminal statute. We disclaim all liability for any unauthorized uses o
+ f this e-mail or its contents\, and accept no liability or responsibility f
+ or any damage caused by any virus transmitted with this e-mail. To learn mo
+ re about our privacy policy\, please visit sentry.com/privacy.\n
+SUMMARY;LANGUAGE=en-US:Interview Confirmation
+LOCATION;LANGUAGE=en-US:Microsoft Teams Meeting
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Ferrer Monica;X-PM-TOKEN=ff3e677
+ b6e1f8e435167a1eaeff472688236f99e;PARTSTAT=NEEDS-ACTION:mailto:Monica.Ferre
+ r@insurance.harley-davidson.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Ray Anthony;X-PM-TOKEN=e98ce56a7
+ 67ef979cb75b3536144a3be2cce6e2b;PARTSTAT=NEEDS-ACTION:mailto:Anthony.Ray@se
+ ntry.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=MorganAmbrose@proton.me;X-PM-TOK
+ EN=c57c26b65fc101ab7d0af0c2d4aa2836026707fa;PARTSTAT=NEEDS-ACTION:mailto:Mo
+ rganAmbrose@proton.me
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20240730T160000Z
+DTSTAMP:20240729T155515Z
+DTSTART:20240730T153000Z
+ORGANIZER;CN=Trevin Taber:mailto:Trevin.Taber@charter.com
+SEQUENCE:0
+UID:LivePhone-7b281f7d-20c7-46de-b8ef-0b0bd48972d0-4528161-9460419
+DESCRIPTION: 	 		 Hello Morgan Naranjo\,Thank you for your interest in the 
+ Trevin Taber- Phone Screens position at Spectrum.You are invited to complet
+ e a phone interview.7/30/2024 9:30 AM Mountain Time (US & Canada)&nbsp\;Acc
+ ess the Spectrum interview foyer and review the resources that will help yo
+ u to prepare for your interview. At the time of your interview\, dial in us
+ ing the given numbers.+1 262-264-7499Guest Code: 713 06 40\nHost Code: 713 
+ 06 40\n		\n\n\n	 		 			 				 					 Good luck with your interview!				 (http
+ s://sus.hvue.io/NdNhtHYgYkK_BjAm)			 \n		 \n	 \n	 	 Thank you\,\n\nTrevin T
+ aber\n\nSpectrum\n	 \n	 	 Need help?I (https://spectrum.hirevue-app.com/rou
+ ter/help)f connecting using an iPhone\, please make sure you are updated to
+  the most current iOS operating system and that there are no other applicat
+ ions open on your phone that require use of the microphone.HireVue Help Cen
+ ter (https://spectrum.hirevue-app.com/router/help)To reschedule this interv
+ iew\, click here (https://sus.hvue.io/z3daOqSQhgUnXlV-). \n\n	 \n	 	 If the
+  above button isn't working\, copy and paste this link in a browser.\n[http
+ s://sus.hvue.io/NdNhtHYgYkK_BjAm] (https://sus.hvue.io/NdNhtHYgYkK_BjAm)\n\
+ nEnglish (US) Change Language (https://spectrum.hirevue-app.com/guest/email
+ LinkViewer.aspx?emailId=e6cebf1a-7642-4378-b7e5-b820cd51713d&languageId=1) 
+ | Unsubscribe (https://spectrum.hirevue-app.com/Router/EmailUnsubscribed/Go
+ ?cid=30885ff1-fb4d-4256-99d7-73f20711244a&amp\;email=MorganAmbrose%40proton
+ .me&amp\;lid=1)\n\n\n
+LOCATION:Spectrum Phone Interview
+SUMMARY:You are invited to interview with Spectrum
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;X-PM-TOKEN=1fcf3339b10c060e85bfd643
+ aeb4e4115ecffd1a;PARTSTAT=NEEDS-ACTION:mailto:MorganAmbrose@proton.me
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240819T171140Z
+UID:calendly-1057222351
+DTSTART:20240822T153000Z
+DTEND:20240822T160000Z
+ORGANIZER;CN=CSSI:mailto:no-reply@calendly.com
+SEQUENCE:0
+DESCRIPTION:Event Name: Zoom Career Overview\nEvent Description: Our execut
+ ive team is excited to meet you! Please grab an upcoming interview time and
+  we’ll send a confirmation email with all the Zoom Video Call details. Th
+ anks!\nDate & Time: 10:30am - 11:00am (Central Time - US & Canada) on Thurs
+ day\, August 22\, 2024\nLocation: This is a Zoom web conference.\n\nYou can
+  join this meeting from your computer\, tablet\, or smartphone.\nhttps://zo
+ om.us/j/96268099911\n\nYou can also dial in using your phone.\nUS: +1 312 6
+ 26 6799\, +1 646 558 8656\, +1 646 931 3860\, +1 301 715 8592\, +1 305 224 
+ 1968\, +1 309 205 3325\, +1 564 217 2000\, +1 669 444 9171\, +1 669 900 912
+ 8\, +16892781000\, +1 719 359 4580\, +1 253 205 0468\, +1 253 215 8782\, +1
+  346 248 7799\, +1 360 209 5623\, +1 386 347 5053\, +1 507 473 4847\nMeetin
+ g ID: 962-680-99911\n\nFind your local number: https://zoom.us/u/adJwRH4rgV
+ \n\nPhone Number: +1 313-466-7426\n
+LOCATION:https://zoom.us/j/96268099911
+SUMMARY:Zoom Career Overview with CSSI
+TRANSP:OPAQUE
+ATTENDEE;X-PM-TOKEN=bcaae423382c4d30443725ef5f76695e8ee90dc3;PARTSTAT=NEEDS
+ -ACTION:mailto:morganambrose@proton.me
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260129T172000Z
+DTEND:20260129T174000Z
+DTSTAMP:20260129T145924Z
+ORGANIZER;CN=Tyler Gundred:mailto:tyler.gundred@recruitomatic.co
+UID:csho5lja8655gqr3dj4djdn3p4@google.com
+SEQUENCE:1
+DESCRIPTION:\n\n==========\n\nCompany: Brookens Construction - Manager\nPho
+ ne:- (313) 466-7426\nEmail:- morganambrose@proton.me\n\nNeed to make a chan
+ ge to this event?\nReschedule:-\nhttps://msgsndr.com/widget/booking/EUoJ9ZS
+ us5kPoXPwGA8z?event_id=1nQ2UkdmbQmoc5SVA7uy\n\nCancel:-\nhttps://msgsndr.co
+ m/widget/cancel-booking?event_id=1nQ2UkdmbQmoc5SVA7uy\n\n-::~:~::~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nJoin
+  with Google Meet: https://meet.google.com/xzd-rfnq-yzo\nOr dial: (US) +1 5
+ 70-634-5995 PIN: 384323653#\nMore phone numbers: https://tel.meet/xzd-rfnq-
+ yzo?pin=1148719910896&hs=7\n\nLearn more about Meet at: https://support.goo
+ gle.com/a/users/answer/9282720\n\nPlease do not edit this section.\n-::~:~:
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~
+ :~::-
+LOCATION:https://meet.google.com/xzd-rfnq-yzo
+SUMMARY:Morgan Naranjo
+STATUS:CANCELLED
+TRANSP:OPAQUE
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;CN=Morgan Naranjo;X-NUM-GUE
+ STS=0;X-PM-TOKEN=045dce9dceba1c2c7714d1116073118a4e160680;PARTSTAT=ACCEPTED
+ :mailto:morganambrose@proton.me
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN=Julia Henry:mailto:jhenry@securedinvestmentcorp.com
+UID:040000008200E00074C5B7101A82E00800000000AD0CF52C7790DC01000000000000000
+ 010000000BBA481F537B8A04C9E45A6FBA86CFD81
+DTSTART;TZID=America/Denver:20260129T140000
+DTEND;TZID=America/Denver:20260129T143000
+DTSTAMP:20260128T165728Z
+SEQUENCE:0
+DESCRIPTION;LANGUAGE=en-US:This meeting was scheduled from the bookings pag
+ e of Julia Henry.\n\nUse the following link to reschedule or cancel this me
+ eting:\nManage meeting<https://outlook.office.com/bookwithme/user/15084904f
+ a2e41c4a05a848a31a08e0d@securedinvestmentcorp.com/booking/-ZGqLWjJEUix5EqFU
+ YKdsQ2?anonymous>\n\n______________________________________________________
+ __________________________\nMicrosoft Teams meeting\nJoin: https://teams.mi
+ crosoft.com/meet/25347088653783?p=JQFYyL5svdtFE5B2IZ\nMeeting ID: 253 470 8
+ 86 537 83\nPasscode: E87NU38G\n________________________________\nNeed help?
+ <https://aka.ms/JoinTeamsMeeting?omkt=en-US> | System reference<https://tea
+ ms.microsoft.com/l/meetup-join/19%3ameeting_NGE5YjVmOTEtNjI3Ny00OTdmLTk2NjI
+ tODM4YTllNWQ3ZWQ5%40thread.v2/0?context=%7b%22Tid%22%3a%2284854ef7-0d5c-47a
+ 0-b8b7-21775f12fc13%22%2c%22Oid%22%3a%223d2f0a17-8107-4c2a-942f-1a1089984be
+ 0%22%7d>\nFor organizers: Meeting options<https://teams.microsoft.com/meeti
+ ngOptions/?organizerId=3d2f0a17-8107-4c2a-942f-1a1089984be0&tenantId=84854e
+ f7-0d5c-47a0-b8b7-21775f12fc13&threadId=19_meeting_NGE5YjVmOTEtNjI3Ny00OTdm
+ LTk2NjItODM4YTllNWQ3ZWQ5@thread.v2&messageId=0&language=en-US>\n___________
+ _____________________________________________________________________\nNMLS
+  #1760709\; Arizona Mortgage Broker License #0950084\; California Finance L
+ enders License 60DBO-101344\n
+SUMMARY;LANGUAGE=en-US:Morgan Naranjo - Intro Call: Sales Manager Opportuni
+ ty
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN=Morgan Naranjo;X-PM-TOKEN=3ab0e
+ 78d6a38ba4474a6213442d842f87e895045;PARTSTAT=ACCEPTED:mailto:MorganAmbrose@
+ proton.me
+BEGIN:VALARM
+DESCRIPTION:Morgan Naranjo - Intro Call: Sales Manager Opportunity
+TRIGGER:-PT15M
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+SUMMARY:Morgan Naranjo - Intro Call: Sales Manager Opportunity
+DESCRIPTION:Morgan Naranjo - Intro Call: Sales Manager Opportunity
+ATTENDEE:mailto:MorganAmbrose@proton.me
+TRIGGER:-PT15M
+ACTION:EMAIL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260129T122000
+DTEND;TZID=America/New_York:20260129T124000
+DTSTAMP:20260129T173717Z
+ORGANIZER;CN=Zach Engard:mailto:zach.engard@recruitomatic.co
+UID:otdt9o82t03jfep2rgs8i1c2q4@google.com
+SEQUENCE:0
+DESCRIPTION:\n\n==========\n\nCompany: Brookens Construction - Manager\nPho
+ ne:- (313) 466-7426\nEmail:- morganambrose@proton.me\n\nNeed to make a chan
+ ge to this event?\nReschedule:-\nhttps://msgsndr.com/widget/booking/EUoJ9ZS
+ us5kPoXPwGA8z?event_id=1nQ2UkdmbQmoc5SVA7uy\n\nCancel:-\nhttps://msgsndr.co
+ m/widget/cancel-booking?event_id=1nQ2UkdmbQmoc5SVA7uy\n\n-::~:~::~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nJoin
+  with Google Meet: https://meet.google.com/yxh-sxcf-ehp\nOr dial: (US) +1 9
+ 04-900-0446 PIN: 818043952#\nMore phone numbers: https://tel.meet/yxh-sxcf-
+ ehp?pin=6732095981817&hs=7\n\nLearn more about Meet at: https://support.goo
+ gle.com/a/users/answer/9282720\n\nPlease do not edit this section.\n-::~:~:
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~
+ :~::-
+LOCATION:https://meet.google.com/yxh-sxcf-ehp\; https://meet.google.com/yxh
+ -sxcf-ehp
+SUMMARY:Morgan Naranjo
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Morgan Naranjo
+ ;X-NUM-GUESTS=0;X-PM-TOKEN=19e8b40d771d04d6e6ee708b80bcb72352c263bc;PARTSTA
+ T=ACCEPTED:mailto:morganambrose@proton.me
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Santana, Pedro":mailto:PSantana@ColonialLife.com
+UID:040000008200E00074C5B7101A82E008000000007C0DA372B594DC01000000000000000
+ 010000000C00996E9503CC64EB68F2E323551A2B1
+DTSTART;TZID=America/Denver:20260203T113000
+DTEND;TZID=America/Denver:20260203T115000
+DTSTAMP:20260203T023315Z
+SEQUENCE:0
+DESCRIPTION;LANGUAGE=en-US:Event Name\nFirst Interview\n\nThis is a chance 
+ to learn more about a career opportunity with Colonial Life and for us to d
+ iscuss your career goals!\n\nLocation: +1 313-466-7426\n\nWhat job board of
+  social media platform did you hear about us through? : Indeed\n\nWhere are
+  you located?: Fort Bliss\n\nNeed to make changes to this event?\nCancel: h
+ ttps://calendly.com/cancellations/39ba17bf-d15b-4b23-92f3-acda064a176e\nRes
+ chedule: https://calendly.com/reschedulings/39ba17bf-d15b-4b23-92f3-acda064
+ a176e\n\nPowered by Calendly https://calendly.com/\n
+SUMMARY;LANGUAGE=en-US:First Interview: Morgan Naranjo and Pete Santana
+LOCATION;LANGUAGE=en-US:+1 313-466-7426
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Morgan Naranjo;X-PM-TOKEN=b2f329
+ 307d7de89ee9b26229c6f6ebdbf63e8d2e;PARTSTAT=NEEDS-ACTION:mailto:morganambro
+ se@proton.me
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Seaman, Philip":mailto:PSeaman@ColonialLife.com
+UID:040000008200E00074C5B7101A82E00800000000194E65194895DC01000000000000000
+ 01000000043B7E6D9C3E74B4B9991F73D30966C0A
+DTSTART;TZID=America/Denver:20260204T133000
+DTEND;TZID=America/Denver:20260204T140000
+DTSTAMP:20260203T200301Z
+SEQUENCE:0
+DESCRIPTION;LANGUAGE=en-US:Event Name\nSecond Interview\n\nWe're looking fo
+ rward to continuing our conversation regarding career opportunities! During
+  this meeting\, you will speak with one of our sales leaders about your bac
+ kground and our company.\n\nLocation: +1 313-466-7426\n\nPlease share anyth
+ ing that will help prepare for our meeting.: El Paso ADM\n\nNeed to make ch
+ anges to this event?\nCancel: https://calendly.com/cancellations/b7d5c6a4-b
+ e0f-4b21-b70e-1e0ac6777aed\nReschedule: https://calendly.com/reschedulings/
+ b7d5c6a4-be0f-4b21-b70e-1e0ac6777aed\n\nPowered by Calendly https://calendl
+ y.com/\n
+SUMMARY;LANGUAGE=en-US:Second Interview: Morgan Naranjo and Philip Seaman
+LOCATION;LANGUAGE=en-US:+1 313-466-7426
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Morgan Naranjo;X-PM-TOKEN=bd6db1
+ c4993d70f278d786411ec4ec57181d1099;PARTSTAT=NEEDS-ACTION:mailto:morganambro
+ se@proton.me
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN=Lee Arnold;SENT-BY="mailto:croberts@securedinvestmentcorp.com"
+ :mailto:lee@securedinvestmentcorp.com
+UID:040000008200E00074C5B7101A82E00800000000A38C9A588F97DC01000000000000000
+ 0100000005358CF94C64DCE41AD320E4988FC253F
+DTSTART;TZID=America/Los_Angeles:20260213T103000
+DTEND;TZID=America/Los_Angeles:20260213T111500
+DTSTAMP:20260206T230323Z
+SEQUENCE:1
+DESCRIPTION;LANGUAGE=en-US: Hi\, Morgan!\n\n\n\nI’m excited to let you kn
+ ow that I’ve scheduled your Zoom interview for the Sales Manager opportun
+ ity here at Cogo Nation. Here are the details:\n\n\n\nInterview Details:\n\
+ n  *\nDate: Friday\, February 13\, 2026\n  *\nTime: 10:30AM PST\n  *   Loca
+ tion:\n[ZOOM]\n\n\n\nYou’ll be meeting with:\n\n  *   Lee Arnold - CEO\n 
+  *   Gary Meyers – VP of Sales\n\nAhead of your meeting\, I encourage you
+  to explore a few resources that will give you a richer sense of who we are
+  and the heart behind our work:\n\n\n\n  *   COGO Nation website: Visit Her
+ e<https://cogonation.com/> - feel free to click through and explore our var
+ ious companies to get a sense of the breadth and impact of our work.\n\n\n\
+ nLet me know if you have any questions or if anything comes up before then.
+  Looking forward to hearing how the conversation goes.\n\n\n\nKind Regards\
+ ,\n\n\n\n\n\n___________________________________________\n\nJulia Henry | R
+ ecruitment Specialist\n\nP 254.534.9186 | E jhenry@securedinvestmentcorp.co
+ m<mailto:jhenry@securedinvestmentcorp.com>\n\n701 E. Front Ave.\, Second Fl
+ oor | Coeur D'Alene\, ID 83814 | securedinvestmentcorp.com<http://securedin
+ vestmentcorp.com/>\n\n[https://us02st2.zoom.us/static/6.3.52110/image/new/Z
+ oomLogo_110_25.png] <https://zoom.com/>\nHi there\,\nLee Arnold is inviting
+  you to a scheduled Zoom meeting.\nJoin Zoom Meeting<https://securedinvestm
+ entcorp.zoom.us/j/82439951408?pwd=PapJYnZaaRd2SC5HTXSURkQocMjGxH.1&from=add
+ on>\nView meeting insights with Zoom AI Companion<https://securedinvestment
+ corp.zoom.us/launch/edl?muid=03a0c0cc-397d-450a-8476-918c3ba0f76a&from=addo
+ n>\nOne tap mobile:\nUS: +14086380968\,\,82439951408#<tel:+14086380968\,\,8
+ 2439951408#> or +13017158592\,\,82439951408#<tel:+13017158592\,\,8243995140
+ 8#>\nMeeting URL:\nhttps://securedinvestmentcorp.zoom.us/j/82439951408?pwd=
+ PapJYnZaaRd2SC5HTXSURkQocMjGxH.1&from=addon\nMeeting ID:\n824 3995 1408\nPa
+ sscode:\n873633\nJoin by Telephone\nFor higher quality\, dial a number base
+ d on your current location.\nDial:\n+1 408 638 0968 US (San Jose)\n+1 301 7
+ 15 8592 US (Washington DC)\n+1 312 626 6799 US (Chicago)\nMeeting ID:\n824 
+ 3995 1408\nInternational numbers<https://securedinvestmentcorp.zoom.us/u/kc
+ YScSKKOp>\n\nNMLS #1760709\; Arizona Mortgage Broker License #0950084\; Cal
+ ifornia Finance Lenders License 60DBO-101344\n
+SUMMARY;LANGUAGE=en-US:Sales Manager Interview: Morgan Ambrose
+LOCATION;LANGUAGE=en-US:https://securedinvestmentcorp.zoom.us/j/82439951408
+ ?pwd=PapJYnZaaRd2SC5HTXSURkQocMjGxH.1&from=addon\; CDA Lee's Office
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Gary Myers;X-PM-TOKEN=5c65e1bea6
+ f3fc77b9ac53a9a5ec52b51dc9e96f;PARTSTAT=NEEDS-ACTION:mailto:gmyers@cogocapi
+ tal.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Julia Henry;X-PM-TOKEN=8bb7c59ca
+ 09290fee3e316d9ecbc13c06360ff40;PARTSTAT=NEEDS-ACTION:mailto:jhenry@secured
+ investmentcorp.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=morganambrose@proton.me;X-PM-TOK
+ EN=28205c6554a66d43ea457274d1bef0c17e9070a8;PARTSTAT=ACCEPTED:mailto:morgan
+ ambrose@proton.me
+BEGIN:VALARM
+DESCRIPTION:Sales Manager Interview: Morgan Ambrose
+TRIGGER:-PT15M
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+SUMMARY:Sales Manager Interview: Morgan Ambrose
+DESCRIPTION:Sales Manager Interview: Morgan Ambrose
+ATTENDEE:mailto:MorganAmbrose@proton.me
+TRIGGER:-PT15M
+ACTION:EMAIL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Seaman, Philip":mailto:PSeaman@ColonialLife.com
+UID:040000008200E00074C5B7101A82E0080000000070F51795E899DC01000000000000000
+ 010000000921B6489C4585C4DB80E8BD9A843E52C
+DTSTART;TZID=America/Denver:20260216T140000
+DTEND;TZID=America/Denver:20260216T150000
+DTSTAMP:20260210T002809Z
+SEQUENCE:0
+DESCRIPTION;LANGUAGE=en-US:[cid:image001.png@01DC99E9.75D18F90]\n\n\n\n
+SUMMARY;LANGUAGE=en-US:Colonial Life Market Opportunity Interview with Morg
+ an Ambrose Naranjo and Philip Seaman
+LOCATION;LANGUAGE=en-US:221 N Kansas St. el paso\, TX\, 79901\, suite 601
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Morgan Ambrose;X-PM-TOKEN=350f28
+ 936b3588784efc8176c982fcb95fc23fd5;PARTSTAT=ACCEPTED:mailto:morganambrose@p
+ roton.me
+BEGIN:VALARM
+DESCRIPTION:Colonial Life Market Opportunity Interview with Morgan Ambrose 
+ Naranjo and Philip Seaman
+TRIGGER:-PT15M
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+SUMMARY:Colonial Life Market Opportunity Interview with Morgan Ambrose Nara
+ njo and Philip Seaman
+DESCRIPTION:Colonial Life Market Opportunity Interview with Morgan Ambrose 
+ Naranjo and Philip Seaman
+ATTENDEE:mailto:MorganAmbrose@proton.me
+TRIGGER:-PT15M
+ACTION:EMAIL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Seaman, Philip":mailto:PSeaman@ColonialLife.com
+UID:040000008200E00074C5B7101A82E0080000000040138CED45A0DC01000000000000000
+ 010000000111A8898BE1EB24780480350A61CBEA8
+DTSTART;TZID=America/Denver:20260225T110000
+DTEND;TZID=America/Denver:20260225T120000
+DTSTAMP:20260218T024624Z
+SEQUENCE:0
+DESCRIPTION;LANGUAGE=en-US:\n
+SUMMARY;LANGUAGE=en-US:Colonial Life Connect with Morgan\, Farid\, and Phil
+ ip
+LOCATION;LANGUAGE=en-US:221 N Kansas St. el paso\, TX\, 79901\, suite 601
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN="Sapien, Farid (CLA)";X-PM-TOKEN
+ =a83e32111a2df2f9ffe7fefb4acc4ea6b6c20d50;PARTSTAT=NEEDS-ACTION:mailto:Fari
+ d.Sapien@coloniallifesales.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Morgan Ambrose;X-PM-TOKEN=397967
+ 9c26a31226552ba32606b4bc45d5b279ae;PARTSTAT=NEEDS-ACTION:mailto:morganambro
+ se@proton.me
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN=Lee Arnold;SENT-BY="mailto:croberts@securedinvestmentcorp.com"
+ :mailto:lee@securedinvestmentcorp.com
+UID:040000008200E00074C5B7101A82E008000000001D25A71956A0DC01000000000000000
+ 010000000949309BBC5E0B34FAACC4F0EF7EDA86E
+DTSTART;TZID=America/Los_Angeles:20260305T154500
+DTEND;TZID=America/Los_Angeles:20260305T164500
+DTSTAMP:20260227T171006Z
+SEQUENCE:2
+DESCRIPTION;LANGUAGE=en-US:NMLS #1760709\; Arizona Mortgage Broker License 
+ #0950084\; California Finance Lenders License 60DBO-101344\n
+SUMMARY;LANGUAGE=en-US:Sales Manager Interview (in person) - Morgan Ambrose
+LOCATION;LANGUAGE=en-US:701 E Front Ave\; CDA Lee's Office
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Gary Myers;X-PM-TOKEN=50c7b5e5b5
+ e53f4b73d91e68d3cdc9fffb296eb4;PARTSTAT=NEEDS-ACTION:mailto:gmyers@cogocapi
+ tal.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Morgan Ambrose;X-PM-TOKEN=ac0db7
+ 6b523cba17363ea04d01d6e59dee7c91cf;PARTSTAT=ACCEPTED:mailto:morganambrose@p
+ roton.me
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Julia Henry;X-PM-TOKEN=a25b8e890
+ 58b99c68ee6a60f6c6593214a0966e6;PARTSTAT=NEEDS-ACTION:mailto:jhenry@secured
+ investmentcorp.com
+BEGIN:VALARM
+DESCRIPTION:Sales Manager Interview (in person) - Morgan Ambrose
+TRIGGER:-PT15M
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+SUMMARY:Sales Manager Interview (in person) - Morgan Ambrose
+DESCRIPTION:Sales Manager Interview (in person) - Morgan Ambrose
+ATTENDEE:mailto:MorganAmbrose@proton.me
+TRIGGER:-PT15M
+ACTION:EMAIL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260304T150000
+DTEND;TZID=America/Los_Angeles:20260304T152000
+DTSTAMP:20260304T004950Z
+ORGANIZER;CN=Heidi Smith:mailto:heidi.smith@housecallpro.com
+UID:b36u3a2kvc1lf4locu5b4rbvjk@google.com
+SEQUENCE:0
+DESCRIPTION:Event Name\nScreen with Housecall Pro - Sr Manager\, Sales\n\nD
+ uring this time\, we will chat further about the role and about Housecall P
+ ro as a company\, as well as review your past work experience.\n\nLocation:
+  +1 313-466-7426\n\nNeed to make changes to this event?\nCancel: https://ca
+ lendly.com/cancellations/89539a15-7f87-4edf-b68c-0963d9400b63\nReschedule: 
+ https://calendly.com/reschedulings/89539a15-7f87-4edf-b68c-0963d9400b63\n\n
+ Powered by Calendly.com\n
+LOCATION:+1 313-466-7426
+SUMMARY:Sales Mgr Screen: Morgan Naranjo
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Heidi Smith;X-
+ NUM-GUESTS=0;X-PM-TOKEN=979e4804d70522ffa3d9f34889628088d84bc1ac;PARTSTAT=A
+ CCEPTED:mailto:heidi.smith@housecallpro.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=morganambrose@
+ proton.me;X-NUM-GUESTS=0;X-PM-TOKEN=0dd5802b6551a7fca40a371330d70bf5ed2bcb7
+ 8;PARTSTAT=ACCEPTED:mailto:morganambrose@proton.me
+BEGIN:VALARM
+DESCRIPTION:Sales Mgr Screen: Morgan Naranjo
+TRIGGER:-PT15M
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+SUMMARY:Sales Mgr Screen: Morgan Naranjo
+DESCRIPTION:Sales Mgr Screen: Morgan Naranjo
+ATTENDEE:mailto:MorganAmbrose@proton.me
+TRIGGER:-PT15M
+ACTION:EMAIL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN=Steph Cook:mailto:Steph.Cook@MYDRNOW.com
+UID:040000008200E00074C5B7101A82E008000000008029F83B10B1DC01000000000000000
+ 010000000C533F3F769C67A4E9BBCF85B4104BA6B
+DTSTART;TZID=America/Phoenix:20260312T150000
+DTEND;TZID=America/Phoenix:20260312T153000
+DTSTAMP:20260311T043342Z
+SEQUENCE:0
+DESCRIPTION;LANGUAGE=en-US:Event Name: Video Chat\n\nPlease allow enough ti
+ me to download the Microsoft Teams app and join me for this virtual\, video
+  chat.\n\nI look forward to seeing you soon!\n\nPlease provide your phone #
+ : +1 313-466-7426\n\nNeed to make changes to this event?\nCancel: https://c
+ alendly.com/cancellations/fc1162e0-6975-41f7-98c2-a468e974ce9d\nReschedule:
+  https://calendly.com/reschedulings/fc1162e0-6975-41f7-98c2-a468e974ce9d\n\
+ n__________________________________________________________________________
+ ______\nMicrosoft Teams meeting\nJoin: https://teams.microsoft.com/meet/262
+ 91600286821?p=0tqnTPDF3gSVqlOcL9\nMeeting ID: 262 916 002 868 21\nPasscode:
+  Fm9ZS9ML\n________________________________\nNeed help?<https://aka.ms/Join
+ TeamsMeeting?omkt=en-US> | System reference<https://teams.microsoft.com/l/m
+ eetup-join/19%3ameeting_YjNiYjhjNGQtNTU0Yy00Njg4LWI1ZjAtZjdjNjBjZjE4NTIz%40
+ thread.v2/0?context=%7b%22Tid%22%3a%223afb32cc-843b-4587-81cc-5d94d59c4e84%
+ 22%2c%22Oid%22%3a%22ecc8ade5-6592-478a-952a-2f8b5e47734f%22%7d>\nFor organi
+ zers: Meeting options<https://teams.microsoft.com/meetingOptions/?organizer
+ Id=ecc8ade5-6592-478a-952a-2f8b5e47734f&tenantId=3afb32cc-843b-4587-81cc-5d
+ 94d59c4e84&threadId=19_meeting_YjNiYjhjNGQtNTU0Yy00Njg4LWI1ZjAtZjdjNjBjZjE4
+ NTIz@thread.v2&messageId=0&language=en-US>\n_______________________________
+ _________________________________________________\nThe information containe
+ d in this email and any attachment(s)\, is CONFIDENTIAL and may be protecte
+ d by physician-patient privilege. Information that is transmitted for the c
+ onduction of business is also CONFIDENTIAL. It is intended only for the nam
+ ed recipient(s) above. If the reader of this message is not the intended re
+ cipient(s)\, you are hereby notified that any release of information or dis
+ tribution of this communication is prohibited by law. If you have received 
+ this message in error\, or are not the named recipient(s)\, please immediat
+ ely notify the sender via either email or facsimile and delete this communi
+ cation.\n
+SUMMARY;LANGUAGE=en-US:Morgan Ambrose Naranjo and Steph Cook
+LOCATION;LANGUAGE=en-US:https://calendly.com/events/c05733cb-d6fa-4b4e-9e6d
+ -e351561792de/microsoft_teams
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Morgan Ambrose Naranjo;X-PM-TOKE
+ N=3b9f374b799f0ed30dd21c1e1fa0e17f4ed17925;PARTSTAT=ACCEPTED:mailto:morgana
+ mbrose@proton.me
+BEGIN:VALARM
+DESCRIPTION:Morgan Ambrose Naranjo and Steph Cook
+TRIGGER:-PT15M
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+SUMMARY:Morgan Ambrose Naranjo and Steph Cook
+DESCRIPTION:Morgan Ambrose Naranjo and Steph Cook
+ATTENDEE:mailto:MorganAmbrose@proton.me
+TRIGGER:-PT15M
+ACTION:EMAIL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN=Lee Arnold;SENT-BY="mailto:croberts@securedinvestmentcorp.com"
+ :mailto:lee@securedinvestmentcorp.com
+UID:040000008200E00074C5B7101A82E008000000001E152B5B54B5DC01000000000000000
+ 010000000F1C1E849E08BBE45BF34E8636A4FBE04
+DTSTART;TZID=America/Los_Angeles:20260319T123000
+DTEND;TZID=America/Los_Angeles:20260319T133000
+DTSTAMP:20260316T145201Z
+SEQUENCE:1
+DESCRIPTION;LANGUAGE=en-US:\n\n[https://us02st2.zoom.us/static/6.3.53910/im
+ age/new/ZoomLogo_110_25.png] <https://zoom.com>\nHi there\,\nLee Arnold is 
+ inviting you to a scheduled Zoom meeting.\nJoin Zoom Meeting<https://secure
+ dinvestmentcorp.zoom.us/j/83970675195?pwd=S92gIgOsamTR27oHgG7c2xnjT4edSR.1&
+ from=addon>\nView meeting insights with Zoom AI Companion<https://securedin
+ vestmentcorp.zoom.us/launch/edl?muid=b5b5a9fe-064f-4818-9277-706cf1de2fae&f
+ rom=addon>\nOne tap mobile:         US: +14086380968\,\,83970675195#<tel:+1
+ 4086380968\,\,83970675195#> or +13126266799\,\,83970675195#<tel:+1312626679
+ 9\,\,83970675195#>\nMeeting URL:    https://securedinvestmentcorp.zoom.us/j
+ /83970675195?pwd=S92gIgOsamTR27oHgG7c2xnjT4edSR.1&from=addon\nMeeting ID:  
+    839 7067 5195\nPasscode:       838608\nJoin by Telephone\nFor higher qua
+ lity\, dial a number based on your current location.\nDial:   +1 408 638 09
+ 68 US (San Jose)\n+1 312 626 6799 US (Chicago)\n+1 301 715 8592 US (Washing
+ ton DC)\nMeeting ID:     839 7067 5195\nInternational numbers<https://secur
+ edinvestmentcorp.zoom.us/u/kbeLraEfXf>\n\nNMLS #1760709\; Arizona Mortgage 
+ Broker License #0950084\; California Finance Lenders License 60DBO-101344\n
+SUMMARY;LANGUAGE=en-US:Interview: Morgan Ambrose
+LOCATION;LANGUAGE=en-US:CDA Lee's Office\; https://securedinvestmentcorp.zo
+ om.us/j/83970675195?pwd=S92gIgOsamTR27oHgG7c2xnjT4edSR.1&from=addon
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Cherie Constance;X-PM-TOKEN=43f1
+ b2332aa15db94c0579a49199900db183f902;PARTSTAT=NEEDS-ACTION:mailto:CConstanc
+ e@securedinvestmentcorp.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Michael Jerrow;X-PM-TOKEN=415db3
+ 97ef46a1d631daf543f2a9b7ac1470a3b2;PARTSTAT=NEEDS-ACTION:mailto:mjerrow@sec
+ uredinvestmentcorp.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Jen O'Callaghan;X-PM-TOKEN=377e5
+ f7d3df60e350ff808617e9d1fffba1c5bca;PARTSTAT=NEEDS-ACTION:mailto:jocallagha
+ n@securedinvestmentcorp.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Morgan Ambrose;X-PM-TOKEN=82b8a0
+ fd611ceeb137d7c80eeb3320952f73026c;PARTSTAT=ACCEPTED:mailto:morganambrose@p
+ roton.me
+BEGIN:VALARM
+DESCRIPTION:Interview: Morgan Ambrose
+TRIGGER:-PT15M
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+SUMMARY:Interview: Morgan Ambrose
+DESCRIPTION:Interview: Morgan Ambrose
+ATTENDEE:mailto:MorganAmbrose@proton.me
+TRIGGER:-PT15M
+ACTION:EMAIL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260409T120000
+DTEND;TZID=America/Los_Angeles:20260409T123000
+DTSTAMP:20260407T181812Z
+ORGANIZER;CN=point candidate calendar (j):mailto:c_1faf4100c8aa946b4be256c9
+ c455e084da87c5955a73dd212448722f083918e6@group.calendar.google.com
+UID:b8v7126si7vc97kndf5j44p0dk@google.com
+SEQUENCE:1
+DESCRIPTION:Itinerary: Morgan N<br />Thursday\, Apr 9\, 2026 MDT<br/><br/>1
+ :00PM (MDT) - 1:30PM (MDT): Mikaela de Robles (Senior Talent Acquisition Pa
+ rtner)<br/><br/>Hi Morgan\,<br/><br/>We're looking forward to our conversat
+ ion with you! Please connect with your Interviewers on Zoom. Ensure you’r
+ e in a quiet place with steady internet. If there are any connection issues
+ \, we will call you at +13134667426<br/><br/>Here is your Zoom Link: https:
+ //point-com.zoom.us/j/81634887001?pwd=Zx7bBzQfYobMvlStOipuuksxX2uc5T.1<br/>
+ <br/><strong>★ Please note that the time displayed is based on your local
+  timezone. If you select Philippine Standard Time or Pacific Standard Time\
+ , both will appear as “PST.” ★</strong><br/><br/>Should you need to r
+ eschedule\, you can use the Event Confirmation link below to reschedule you
+ r day and time. If you have any questions around scheduling\, please reach 
+ out to recruitingteam@point.com. Otherwise\, for all other questions\, plea
+ se don't hesitate to reach out to Janelle (jbrendel@point.com). <br/><br/> 
+ Here's your event confirmation.<br />https://request-availability.goodtime.
+ io/intro/rOT0ea2MZB1Pqjj6 <br/><br/> &lt\;&lt\;&lt\;&lt\;&lt\;&gt\;&gt\;&gt
+ \;&gt\;&gt\;
+SUMMARY:Your Virtual Interview with Point - Zoom Link Included
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Morgan Naranjo
+ ;X-NUM-GUESTS=0;X-PM-TOKEN=e96d4c4e1f7effdcf429a96a2b6137d667b0988f;PARTSTA
+ T=ACCEPTED:mailto:morganambrose@proton.me
+BEGIN:VALARM
+DESCRIPTION:Your Virtual Interview with Point - Zoom Link Included
+TRIGGER:-PT15M
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+SUMMARY:Your Virtual Interview with Point - Zoom Link Included
+DESCRIPTION:Your Virtual Interview with Point - Zoom Link Included
+ATTENDEE:mailto:MorganAmbrose@proton.me
+TRIGGER:-PT15M
+ACTION:EMAIL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN=Interview Scheduling:mailto:interviewscheduling@axon.com
+UID:040000008200E00074C5B7101A82E0080000000082865979A5C3DC01000000000000000
+ 010000000BDDA839CB86699429A699EAF54C93DBA
+DTSTART:20260406T201500Z
+DTEND:20260406T204500Z
+DTSTAMP:20260406T165204Z
+SEQUENCE:1
+DESCRIPTION;LANGUAGE=en-US:Hi Morgan Ambrose\,\n\nThanks for scheduling you
+ r interview for the Manager of Inside Sales role at Axon — we’re lookin
+ g forward to connecting and learning more about you!\n\nHere are the detail
+ s for your upcoming interview:\n\nMonday\, April 6\, 2026:\n2:15pm - 2:45pm
+  MT - Interview with Jillian Wade (Sr Recruiter I)\nI’ll give you a call 
+ at 3134667426.\n\nIf you need to make any changes\, you can reschedule dire
+ ctly using the link below:\nhttps://mloop.in/s/6fiRfs7eG4L\n\n\nLooking for
+ ward to our conversation!\n\nBest\,\nJillian Wade\nSales Recruiter\nAXON\n\
+ nWe are an equal opportunity employer that promotes justice\, advances equi
+ ty\, values diversity and fosters inclusion. We’re committed to hiring th
+ e best talent — regardless of race\, creed\, color\, ancestry\, religion\
+ , sex (including pregnancy)\, national origin\, sexual orientation\, age\, 
+ citizenship status\, marital status\, disability\, gender identity\, geneti
+ c information\, veteran status\, or any other characteristic protected by a
+ pplicable laws\, regulations and ordinances — and empowering all of our e
+ mployees so they can do their best work. If you have a disability or specia
+ l need that requires assistance or accommodation during the application or 
+ the recruiting process\, please email recruitingops@axon.com<mailto:recruit
+ ingops@axon.com>. Please note that this email address is for accommodation 
+ purposes only. Axon will not respond to inquiries for other purposes.\n
+SUMMARY;LANGUAGE=en-US:Canceled: Interview for Manager of Inside Sales with
+  Jillian Wade (Sr Recruiter I) at Axon!
+LOCATION;LANGUAGE=en-US:3134667426
+TRANSP:TRANSPARENT
+STATUS:CANCELLED
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=MorganAmbrose@proton.me;X-PM-TOK
+ EN=970a7512ddc41e7fa0da13b239f79243bcebc5ad;PARTSTAT=NEEDS-ACTION:mailto:Mo
+ rganAmbrose@proton.me
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN=Interview Scheduling:mailto:interviewscheduling@axon.com
+UID:040000008200E00074C5B7101A82E00800000000E100668BE8C5DC01000000000000000
+ 010000000CDD7C148F2053A47910653805A79F978
+DTSTART:20260408T201500Z
+DTEND:20260408T204500Z
+DTSTAMP:20260406T171231Z
+SEQUENCE:0
+DESCRIPTION;LANGUAGE=en-US:Hi Morgan Ambrose\,\n\nThanks for scheduling you
+ r interview for the Manager of Inside Sales role at Axon — we’re lookin
+ g forward to connecting and learning more about you!\n\nHere are the detail
+ s for your upcoming interview:\n\nWednesday\, April 8\, 2026:\n2:15pm - 2:4
+ 5pm MT - Interview with Jillian Wade (Sr Recruiter I)\nI’ll give you a ca
+ ll at 3134667426.\n\nIf you need to make any changes\, you can reschedule d
+ irectly using the link below:\nhttps://mloop.in/s/6fiRfs7eG4L\n\n\nLooking 
+ forward to our conversation!\n\nBest\,\nJillian Wade\nSales Recruiter\nAXON
+ \n\nWe are an equal opportunity employer that promotes justice\, advances e
+ quity\, values diversity and fosters inclusion. We’re committed to hiring
+  the best talent — regardless of race\, creed\, color\, ancestry\, religi
+ on\, sex (including pregnancy)\, national origin\, sexual orientation\, age
+ \, citizenship status\, marital status\, disability\, gender identity\, gen
+ etic information\, veteran status\, or any other characteristic protected b
+ y applicable laws\, regulations and ordinances — and empowering all of ou
+ r employees so they can do their best work. If you have a disability or spe
+ cial need that requires assistance or accommodation during the application 
+ or the recruiting process\, please email recruitingops@axon.com<mailto:recr
+ uitingops@axon.com>. Please note that this email address is for accommodati
+ on purposes only. Axon will not respond to inquiries for other purposes.\n
+SUMMARY;LANGUAGE=en-US:Interview for Manager of Inside Sales with Jillian W
+ ade (Sr Recruiter I) at Axon!
+LOCATION;LANGUAGE=en-US:3134667426
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=MorganAmbrose@proton.me;X-PM-TOK
+ EN=3d5dfc75603518ef993f7e38ffec975889a5476c;PARTSTAT=ACCEPTED:mailto:Morgan
+ Ambrose@proton.me
+BEGIN:VALARM
+DESCRIPTION:Interview for Manager of Inside Sales with Jillian Wade (Sr Rec
+ ruiter I) at Axon!
+TRIGGER:-PT15M
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+SUMMARY:Interview for Manager of Inside Sales with Jillian Wade (Sr Recruit
+ er I) at Axon!
+DESCRIPTION:Interview for Manager of Inside Sales with Jillian Wade (Sr Rec
+ ruiter I) at Axon!
+ATTENDEE:mailto:MorganAmbrose@proton.me
+TRIGGER:-PT15M
+ACTION:EMAIL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260518T143000
+DTEND;TZID=America/Chicago:20260518T150000
+DTSTAMP:20260513T161827Z
+ORGANIZER;CN=Van Tlung:mailto:vtlung@thecaregivingcompany.com
+UID:4aejvrdt0iuqsdea6dao3fpuh2@google.com
+SEQUENCE:0
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/sx
+ a-jfer-cyi\nOr dial: (US) +1 502-622-8086 PIN: 539367414#\nMore phone numbe
+ rs: https://tel.meet/sxa-jfer-cyi?pin=9039092860076&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LOCATION:https://meet.google.com/sxa-jfer-cyi
+SUMMARY:Intro: Morgan Ambrose Naranjo (Abilene)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Katelyn Payne;
+ X-NUM-GUESTS=0;X-PM-TOKEN=d9fbdaf61c9d53436ea4364f6da60f9a83443bd3;PARTSTAT
+ =NEEDS-ACTION:mailto:kpayne@thecaregivingcompany.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=morganambrose@
+ proton.me;X-NUM-GUESTS=0;X-PM-TOKEN=fcde76f246b81d9cdef67d1450146881e74d5ee
+ b;PARTSTAT=ACCEPTED:mailto:morganambrose@proton.me
+BEGIN:VALARM
+DESCRIPTION:Intro: Morgan Ambrose Naranjo (Abilene)
+TRIGGER:-PT15M
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+SUMMARY:Intro: Morgan Ambrose Naranjo (Abilene)
+DESCRIPTION:Intro: Morgan Ambrose Naranjo (Abilene)
+ATTENDEE:mailto:MorganAmbrose@proton.me
+TRIGGER:-PT15M
+ACTION:EMAIL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260520T101500
+DTEND;TZID=America/New_York:20260520T103000
+DTSTAMP:20260520T144956Z
+ORGANIZER;CN=Brianna Goulette:mailto:bgoulette@nsightcare.com
+UID:0v6cofchdl9vbv855rt2ajsat0@google.com
+SEQUENCE:0
+DESCRIPTION:Event Name\n15 Minute Meeting\n\nLocation: This is a Google Mee
+ t web conference.\nYou can join this meeting from your computer\, tablet\, 
+ or smartphone.\nhttps://calendly.com/events/869159c8-a3aa-4a39-ac8e-c247ec4
+ 23ef6/google_meet\n\nNeed to make changes to this event?\nCancel: https://c
+ alendly.com/cancellations/1b747c84-b39c-4fba-8446-ff3a05e5789d\nReschedule:
+  https://calendly.com/reschedulings/1b747c84-b39c-4fba-8446-ff3a05e5789d\n\
+ nPowered by Calendly.com\n\n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://
+ meet.google.com/kuv-mcsd-izt\nOr dial: (US) +1 518-504-7738 PIN: 697336836#
+ \nMore phone numbers: https://tel.meet/kuv-mcsd-izt?pin=5031708229298&hs=7\
+ n\nLearn more about Meet at: https://support.google.com/a/users/answer/9282
+ 720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LOCATION:Google Meet (instructions in description)\; https://meet.google.co
+ m/kuv-mcsd-izt
+SUMMARY:Morgan Ambrose and Brianna Goulette - Enrollment Supervisor
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Brianna Goulet
+ te;X-NUM-GUESTS=0;X-PM-TOKEN=3d40e77c92baf800f3ba82c85eb2324df597e20f;PARTS
+ TAT=ACCEPTED:mailto:bgoulette@nsightcare.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=morganambrose@
+ proton.me;X-NUM-GUESTS=0;X-PM-TOKEN=fb0e9856a7d7c5d4671ba381c94c66a9c754eb6
+ 8;PARTSTAT=ACCEPTED:mailto:morganambrose@proton.me
+BEGIN:VALARM
+DESCRIPTION:Morgan Ambrose and Brianna Goulette - Enrollment Supervisor
+TRIGGER:-PT15M
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+SUMMARY:Morgan Ambrose and Brianna Goulette - Enrollment Supervisor
+DESCRIPTION:Morgan Ambrose and Brianna Goulette - Enrollment Supervisor
+ATTENDEE:mailto:MorganAmbrose@proton.me
+TRIGGER:-PT15M
+ACTION:EMAIL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260518T155042Z
+DTSTART;TZID=America/Chicago:20260521T100000
+DTEND;TZID=America/Chicago:20260521T103000
+UID:y2xJ4YklafWfh/QGNvaDKSUaSsiUFlqnYgFL3o7XM7U=@interviews.indeed.com
+ORGANIZER;CN=Indeed.com:mailto:no-reply@indeed.com
+SEQUENCE:0
+SUMMARY: Video interview with Big Bend Telephone
+DESCRIPTION:You have a scheduled video interview with Big Bend Telephone fo
+ r the Customer Operations/Sales Supervisor position.\n\nJoin link: https://
+ l.indeed.com/exDJnaNyb6/\n\n-----------------------------\n\nWhat to expect
+ \nYou will need a quiet space with internet access\, and a device with a vi
+ deo camera.\n\nThis interview takes place on Indeed\, so you won't need to 
+ download anything.\n\nCan't attend this interview?\nReschedule: https://l.i
+ ndeed.com/vp4RphTtjW/\n\nCancel: https://l.indeed.com/BLc7RVioQw/\n
+LOCATION:https://interviews.indeed.com/join/5a1e5fd5-bb76-4e62-97f9-b9d24e5
+ 5cf24?from=interview-email
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0;RSVP=FALSE;C
+ N=MorganAmbrose@proton.me;X-PM-TOKEN=a0e4405c8190baf8abe7358e66a130ac4efac4
+ a3;PARTSTAT=ACCEPTED:mailto:MorganAmbrose@proton.me
+BEGIN:VALARM
+DESCRIPTION:Video interview with Big Bend Telephone
+TRIGGER:-PT15M
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+SUMMARY:Video interview with Big Bend Telephone
+DESCRIPTION:Video interview with Big Bend Telephone
+ATTENDEE:mailto:MorganAmbrose@proton.me
+TRIGGER:-PT15M
+ACTION:EMAIL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN=Tesla:mailto:Tesla1645322@TeslaMotorsInc.onmicrosoft.com
+UID:040000008200E00074C5B7101A82E008000000000FD7F2E7C9E7DC01000000000000000
+ 010000000C02F5EA45315E14BBB7CD5AD1F81DA3D
+DTSTART;TZID=America/Denver:20260527T091000
+DTEND;TZID=America/Denver:20260527T094000
+DTSTAMP:20260519T195848Z
+SEQUENCE:2
+DESCRIPTION;LANGUAGE=en-US:Your appointment will be with Colleen Sheibley.\
+ n\nTesla\n\n\nManage Booking<https://outlook.office365.com:443/owa/calendar
+ /Tesla1645322@TeslaMotorsInc.onmicrosoft.com/bookings/M_c3h6wRcESSN4NAjH79M
+ Q2>\n\n
+SUMMARY;LANGUAGE=en-US:Phone Interview\, Tesla  - Morgan Naranjo
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE;CN=Morgan Naranjo;X-PM-TOKEN=9fb3e
+ 7bed951dc85e0a86cac5db2df67dee8004a;PARTSTAT=ACCEPTED:mailto:MorganAmbrose@
+ proton.me
+BEGIN:VALARM
+DESCRIPTION:Phone Interview\, Tesla  - Morgan Naranjo
+TRIGGER:-PT15M
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+SUMMARY:Phone Interview\, Tesla  - Morgan Naranjo
+DESCRIPTION:Phone Interview\, Tesla  - Morgan Naranjo
+ATTENDEE:mailto:MorganAmbrose@proton.me
+TRIGGER:-PT15M
+ACTION:EMAIL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN=Jacqueline De La O:mailto:jacqueline@transmaritimeinc.onmicros
+ oft.com
+UID:040000008200E00074C5B7101A82E0080000000061F2294C71E8DC01000000000000000
+ 010000000E0FEE3764B6EDF49B004A9885A345DE9
+DTSTART;TZID=America/Chicago:20260521T143000
+DTEND;TZID=America/Chicago:20260521T150000
+DTSTAMP:20260520T155702Z
+SEQUENCE:1
+DESCRIPTION;LANGUAGE=en-US:Hello Morgan\,\n\nWe received your application f
+ or the position desired as Commercial Manager.\n\nWe would like to invite y
+ ou for a remote preliminary interview via Microsoft Teams on Thursday\, May
+  21 at 2:30 p.m. to 3:00 p.m. (CDT). Kindly respond to this email no later 
+ than 24.00 hours from receiving the invite if you would like to confirm you
+ r interview schedule. Interview schedule duration is of max 30 minutes.\n\n
+ Interview Teams Link: https://teams.microsoft.com/l/meetup-join/19%3ameetin
+ g_NTA4YjQ0ZDUtNDAwNy00NGQxLWEyNGItOTFjNWRkZjE3Njhm%40thread.v2/0?context=%7
+ b%22Tid%22%3a%221f95ab22-f459-4ab5-a656-7276a62d5a0b%22%2c%22Oid%22%3a%221c
+ e986f6-4205-4aa1-a90f-2de1b7ccd21f%22%7d\n\n\nThank you for your interest i
+ n joining our team of professionals.\n\n\nSincerely\,\n\nJacqueline De La O
+ \n\nTransmaritime Inc. - Careers / Talent Group\n\n________________________
+ ________\n\nClick the meeting link to join the interview: https://teams.mic
+ rosoft.com/l/meetup-join/19%3ameeting_NTA4YjQ0ZDUtNDAwNy00NGQxLWEyNGItOTFjN
+ WRkZjE3Njhm%40thread.v2/0?context=%7b%22Tid%22%3a%221f95ab22-f459-4ab5-a656
+ -7276a62d5a0b%22%2c%22Oid%22%3a%221ce986f6-4205-4aa1-a90f-2de1b7ccd21f%22%7
+ d\n
+SUMMARY;LANGUAGE=en-US:Transmaritime\, Inc. - Remote 1st Interview Schedule
+  | Morgan Ambrose
+LOCATION;LANGUAGE=en-US:https://teams.microsoft.com/l/meetup-join/19%3ameet
+ ing_NTA4YjQ0ZDUtNDAwNy00NGQxLWEyNGItOTFjNWRkZjE3Njhm%40thread.v2/0?context=
+ %7b%22Tid%22%3a%221f95ab22-f459-4ab5-a656-7276a62d5a0b%22%2c%22Oid%22%3a%22
+ 1ce986f6-4205-4aa1-a90f-2de1b7ccd21f%22%7d
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=MorganAmbrose@Proton.me;X-PM-TOK
+ EN=3cfda71141874d97172b0624901cfbec81628f98;PARTSTAT=ACCEPTED:mailto:Morgan
+ Ambrose@Proton.me
+BEGIN:VALARM
+DESCRIPTION:Transmaritime\, Inc. - Remote 1st Interview Schedule | Morgan A
+ mbrose
+TRIGGER:-PT15M
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+SUMMARY:Transmaritime\, Inc. - Remote 1st Interview Schedule | Morgan Ambro
+ se
+DESCRIPTION:Transmaritime\, Inc. - Remote 1st Interview Schedule | Morgan A
+ mbrose
+ATTENDEE:mailto:MorganAmbrose@proton.me
+TRIGGER:-PT15M
+ACTION:EMAIL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:r7jwekStvxT8-E7k8hvCcwghmrrB@proton.me
+DTSTAMP:20260521T144122Z
+DTSTART;TZID=America/Denver:20260521T143000
+DTEND;TZID=America/Denver:20260521T150000
+SEQUENCE:0
+SUMMARY:BL.UUM Interview with Megan
+STATUS:CONFIRMED
+BEGIN:VALARM
+DESCRIPTION:BL.UUM Interview with Megan
+TRIGGER:-PT15M
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+SUMMARY:BL.UUM Interview with Megan
+DESCRIPTION:BL.UUM Interview with Megan
+ATTENDEE:mailto:MorganAmbrose@proton.me
+TRIGGER:-PT15M
+ACTION:EMAIL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:egH6hF-DFEN9XwgybgYQLoyi9bTL@proton.me
+DTSTAMP:20260521T144214Z
+DTSTART;TZID=America/Denver:20260519T090000
+DTEND;TZID=America/Denver:20260519T093000
+SEQUENCE:0
+SUMMARY:LRS Director Interview with Rich
+STATUS:CONFIRMED
+BEGIN:VALARM
+DESCRIPTION:LRS Director Interview with Rich
+TRIGGER:-PT15M
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+SUMMARY:LRS Director Interview with Rich
+DESCRIPTION:LRS Director Interview with Rich
+ATTENDEE:mailto:MorganAmbrose@proton.me
+TRIGGER:-PT15M
+ACTION:EMAIL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN=Anna Fuentez:mailto:anna.fuentez@bigbend.com
+UID:040000008200E00074C5B7101A82E00800000000C834B8604EE9DC01000000000000000
+ 01000000011544E21FBCB9E4EB49926EDDC3ABFA1
+DTSTART;TZID=America/Chicago:20260602T140000
+DTEND;TZID=America/Chicago:20260602T150000
+DTSTAMP:20260521T181937Z
+SEQUENCE:1
+DESCRIPTION;LANGUAGE=en-US:\n
+SUMMARY;LANGUAGE=en-US:Morgan Ambrose In Person Interview
+LOCATION;LANGUAGE=en-US:808 N 5th St\, Alpine\, TX
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Lauren Sanders;X-PM-TOKEN=fc87e6
+ 6b9b971d8e364408fa81cfe3f4c64329aa;PARTSTAT=NEEDS-ACTION:mailto:lauren.sand
+ ers@bigbend.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Rusty Moore;X-PM-TOKEN=cc4b95a52
+ 3396892b3f99ac2ea151ae572d5ed7d;PARTSTAT=NEEDS-ACTION:mailto:rusty.moore@bi
+ gbend.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=MorganAmbrose@proton.me;X-PM-TOK
+ EN=1ec7fc4d577bfebb623d68a3ae7ac310fb83f191;PARTSTAT=ACCEPTED:mailto:Morgan
+ Ambrose@proton.me
+BEGIN:VALARM
+DESCRIPTION:Morgan Ambrose In Person Interview
+TRIGGER:-PT15M
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+SUMMARY:Morgan Ambrose In Person Interview
+DESCRIPTION:Morgan Ambrose In Person Interview
+ATTENDEE:mailto:MorganAmbrose@proton.me
+TRIGGER:-PT15M
+ACTION:EMAIL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN=Megan Ambrose:mailto:Megan.Ambrose@Bluum.com
+UID:040000008200E00074C5B7101A82E0080000000050F1AACD24EDDC01000000000000000
+ 0100000009A67C77056E3E64890B72EBD7D27ED74
+DTSTART;TZID=America/Chicago:20260603T130000
+DTEND;TZID=America/Chicago:20260603T133000
+DTSTAMP:20260526T205001Z
+SEQUENCE:0
+DESCRIPTION;LANGUAGE=en-US:\n______________________________________________
+ __________________________________\nMicrosoft Teams meeting\nJoin: https://
+ teams.microsoft.com/meet/2359455488777?p=a56HPgVpaCT02PSOJH\nMeeting ID: 23
+ 5 945 548 877 7\nPasscode: a59TB9Y7\n________________________________\nNeed
+  help?<https://aka.ms/JoinTeamsMeeting?omkt=en-US> | System reference<https
+ ://teams.microsoft.com/l/meetup-join/19%3ameeting_YWRiYzRjMzAtYWEwNS00N2M5L
+ WE5MTktNjk1Nzk4MDRmODUz%40thread.v2/0?context=%7b%22Tid%22%3a%22dab5d7f7-4d
+ dd-4904-a9bb-189dbd79ae98%22%2c%22Oid%22%3a%22a24ec8e2-39cf-4fc4-af8f-42908
+ 464fde6%22%7d>\nFor organizers: Meeting options<https://teams.microsoft.com
+ /meetingOptions/?organizerId=a24ec8e2-39cf-4fc4-af8f-42908464fde6&tenantId=
+ dab5d7f7-4ddd-4904-a9bb-189dbd79ae98&threadId=19_meeting_YWRiYzRjMzAtYWEwNS
+ 00N2M5LWE5MTktNjk1Nzk4MDRmODUz@thread.v2&messageId=0&language=en-US>\n[Comp
+ any Logo]\n________________________________________________________________
+ ________________\n\n
+SUMMARY;LANGUAGE=en-US:Morgan Ambrose Naranjo-Supervisor\, Sales Administra
+ tion 6/3
+LOCATION;LANGUAGE=en-US:Microsoft Teams Meeting
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Gail King;X-PM-TOKEN=fabeb416be4
+ 67ffb9423635ecb44b9ee17e42803;PARTSTAT=NEEDS-ACTION:mailto:gail.king@Bluum.
+ com
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Zulfiqar Sindha;X-PM-TOKEN=bd138
+ f12b357f6ba4b25e2cc3e004266e941f88c;PARTSTAT=NEEDS-ACTION:mailto:Zulfiqar.S
+ indha@bluum.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=MorganAmbrose@proton.me;X-PM-TOK
+ EN=6ce854523ff9f89763efcfd4801eb4e6b266b27b;PARTSTAT=ACCEPTED:mailto:morgan
+ ambrose@proton.me
+BEGIN:VALARM
+DESCRIPTION:Morgan Ambrose Naranjo-Supervisor\, Sales Administration 6/3
+TRIGGER:-PT15M
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+SUMMARY:Morgan Ambrose Naranjo-Supervisor\, Sales Administration 6/3
+DESCRIPTION:Morgan Ambrose Naranjo-Supervisor\, Sales Administration 6/3
+ATTENDEE:mailto:MorganAmbrose@proton.me
+TRIGGER:-PT15M
+ACTION:EMAIL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN=Jacqueline De La O:mailto:jacqueline@transmaritimeinc.onmicros
+ oft.com
+UID:040000008200E00074C5B7101A82E00800000000590F097F20EEDC01000000000000000
+ 0100000002BFB576BAB92B44D890FCC71375235D0
+DTSTART;TZID=America/Chicago:20260529T163000
+DTEND;TZID=America/Chicago:20260529T170000
+DTSTAMP:20260527T213345Z
+SEQUENCE:1
+DESCRIPTION;LANGUAGE=en-US:Hello Morgan\,\n\nWe received your application f
+ or the position desired as Commercial Manager. We would like to invite you 
+ for a remote 2nd interview with Vicente Miranda via Microsoft Teams on Frid
+ ay\, May 29 at 4:30 p.m. to 5:00 p.m. (CDT). Kindly respond to this email n
+ o later than 24.00 hours from receiving the invite if you would like to con
+ firm your interview schedule. Interview schedule duration is of max 30 minu
+ tes.\n\nInterview Teams Link: https://teams.microsoft.com/l/meetup-join/19%
+ 3ameeting_NmIzYTY3OTItMGUxNy00MmJkLWFmZWMtZTdmY2M4ZjJjMDFk%40thread.v2/0?co
+ ntext=%7b%22Tid%22%3a%221f95ab22-f459-4ab5-a656-7276a62d5a0b%22%2c%22Oid%22
+ %3a%221ce986f6-4205-4aa1-a90f-2de1b7ccd21f%22%7d\n\n\nThank you for your in
+ terest in joining our team of professionals.\n\n\nSincerely\,\n\nJacqueline
+  De La O\n\nTransmaritime Inc. - Careers / Talent Group\n\n________________
+ ________________\n\nClick the meeting link to join the interview: https://t
+ eams.microsoft.com/l/meetup-join/19%3ameeting_NmIzYTY3OTItMGUxNy00MmJkLWFmZ
+ WMtZTdmY2M4ZjJjMDFk%40thread.v2/0?context=%7b%22Tid%22%3a%221f95ab22-f459-4
+ ab5-a656-7276a62d5a0b%22%2c%22Oid%22%3a%221ce986f6-4205-4aa1-a90f-2de1b7ccd
+ 21f%22%7d\n
+SUMMARY;LANGUAGE=en-US:Transmaritime\, Inc. - Remote 2nd Interview Schedule
+  | Morgan Ambrose
+LOCATION;LANGUAGE=en-US:https://teams.microsoft.com/l/meetup-join/19%3ameet
+ ing_NmIzYTY3OTItMGUxNy00MmJkLWFmZWMtZTdmY2M4ZjJjMDFk%40thread.v2/0?context=
+ %7b%22Tid%22%3a%221f95ab22-f459-4ab5-a656-7276a62d5a0b%22%2c%22Oid%22%3a%22
+ 1ce986f6-4205-4aa1-a90f-2de1b7ccd21f%22%7d
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=MorganAmbrose@Proton.me;X-PM-TOK
+ EN=f13fff37e6cd3312acf3ee381c8630b8fd30b851;PARTSTAT=ACCEPTED:mailto:Morgan
+ Ambrose@Proton.me
+BEGIN:VALARM
+DESCRIPTION:Transmaritime\, Inc. - Remote 2nd Interview Schedule | Morgan A
+ mbrose
+TRIGGER:-PT15M
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+SUMMARY:Transmaritime\, Inc. - Remote 2nd Interview Schedule | Morgan Ambro
+ se
+DESCRIPTION:Transmaritime\, Inc. - Remote 2nd Interview Schedule | Morgan A
+ mbrose
+ATTENDEE:mailto:MorganAmbrose@proton.me
+TRIGGER:-PT15M
+ACTION:EMAIL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260625T154500
+DTEND;TZID=America/Chicago:20260625T160000
+DTSTAMP:20260624T231145Z
+ORGANIZER;CN=Johanna Monteith:mailto:jmonteith@mg-ins.com
+UID:vmpkct00omv8bha4l0lr2ecgho@google.com
+SEQUENCE:0
+DESCRIPTION:\n\n==========\n\nPhone:- (313) 466-7426\nEmail:- morganambrose
+ @proton.me\n\nNeed to make a change to this event?\nReschedule:-\nhttps://m
+ sgsndr.com/widget/booking/KqlBxToICHxDK1xZTrI9?event_id=discLrIqY6RIVnae6If
+ v\n\nCancel:-\nhttps://msgsndr.com/widget/cancel-booking?event_id=discLrIqY
+ 6RIVnae6Ifv
+LOCATION:call in to your interview at 319-936-2690
+SUMMARY:Morgan Naranjo - Handshake Intro Interview
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Johanna Montei
+ th;X-NUM-GUESTS=0;X-PM-TOKEN=85763a79ef1c1deac6002040c61239e83b3d3e5a;PARTS
+ TAT=ACCEPTED:mailto:jmonteith@mg-ins.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Morgan Naranjo
+ ;X-NUM-GUESTS=0;X-PM-TOKEN=33c0dcf70317b171a7b38ccda2d6d3a3cda80ab1;PARTSTA
+ T=ACCEPTED:mailto:morganambrose@proton.me
+BEGIN:VALARM
+DESCRIPTION:Morgan Naranjo - Handshake Intro Interview
+TRIGGER:-PT15M
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+SUMMARY:Morgan Naranjo - Handshake Intro Interview
+DESCRIPTION:Morgan Naranjo - Handshake Intro Interview
+ATTENDEE:mailto:MorganAmbrose@proton.me
+TRIGGER:-PT15M
+ACTION:EMAIL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260626T170055Z
+DTSTART;TZID=America/New_York:20260403T120000
+DTEND;TZID=America/New_York:20260403T133000
+RRULE:FREQ=MONTHLY;BYDAY=1FR;UNTIL=20261205T045959Z;WKST=SU
+UID:b97kuj9o6sojcd9l6kqj0c9i9lnn4pr1dp0mqojidtpmag3ge9nn8rre5pmma
+ORGANIZER;ROLE=REQ-PARTICIPANT;CN=Pritchett Agency Host:mailto:no-reply@zoo
+ m.us
+EXDATE;TZID=America/New_York:20260501T120000
+EXDATE;TZID=America/New_York:20260605T120000
+SEQUENCE:0
+SUMMARY:Million Dollar Business Blueprint
+DESCRIPTION:Topic: Million Dollar Business Blueprint \nDescription: From $1
+ .9M Agent to $12M Agency in 24 Months\n\nHear all about Dylan Crane's meteo
+ ric rise from professional athlete to $12M agency leader in just 2 years.\n
+ \nPLUS.... Tune in to hear from a few extra special guests!\n\nDon't wait f
+ or the recording. Join us Friday\, July 3\, 2026 for this can't-miss event!
+ \n\nJoin from PC\, Mac\, iPad\, or Android:\nhttps://pritchettagency.zoom.u
+ s/w/87165555012?tk=5c7m7uT2YGuKyPuu7ubAnrw7NMT8apprpUh8Q30yIXY.DQkAAAAUS3jR
+ RBZNV1hDQ05ZUlNvRzB2X19yYkVUWW5nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+ &pwd=RzgoSb7zoDegqkel7BScfRWTq7De2Q.1\nPasscode:458434\n\nPhone one-tap:\n+
+ 13462487799\,\,87165555012# US (Houston)\n+12532050468\,\,87165555012# US\n
+ \nJoin via audio:\n+1 346 248 7799 US (Houston)\n+1 253 205 0468 US\n+1 253
+  215 8782 US (Tacoma)\n+1 408 638 0968 US (San Jose)\n+1 669 444 9171 US\n+
+ 1 669 900 6833 US (San Jose)\n+1 719 359 4580 US\n+1 312 626 6799 US (Chica
+ go)\n+1 360 209 5623 US\n+1 386 347 5053 US\n+1 507 473 4847 US\n+1 564 217
+  2000 US\n+1 646 876 9923 US (New York)\n+1 646 931 3860 US\n+1 689 278 100
+ 0 US\n+1 301 715 8592 US (Washington DC)\n+1 305 224 1968 US\n+1 309 205 33
+ 25 US\nWebinar ID: 871 6555 5012\nInternational numbers available: https://
+ pritchettagency.zoom.us/u/kkKIEnK1v\n\n\n
+LOCATION:https://pritchettagency.zoom.us/w/87165555012?tk=5c7m7uT2YGuKyPuu7
+ ubAnrw7NMT8apprpUh8Q30yIXY.DQkAAAAUS3jRRBZNV1hDQ05ZUlNvRzB2X19yYkVUWW5nAAAA
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&pwd=RzgoSb7zoDegqkel7BScfRWTq7De2Q.
+ 1
+ATTENDEE;ROLE=REQ-PARTICIPANT;CN=Morgan Naranjo;X-PM-TOKEN=d97c7ec256ed4794
+ 197502abbcaa25929c499277;PARTSTAT=ACCEPTED:mailto:MorganAmbrose@proton.me
+BEGIN:VALARM
+DESCRIPTION:Million Dollar Business Blueprint
+TRIGGER:-PT15M
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+SUMMARY:Million Dollar Business Blueprint
+DESCRIPTION:Million Dollar Business Blueprint
+ATTENDEE:mailto:MorganAmbrose@proton.me
+TRIGGER:-PT15M
+ACTION:EMAIL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Denver:20260702T120000
+DTEND;TZID=America/Denver:20260702T123000
+DTSTAMP:20260629T155036Z
+ORGANIZER;CN=Kishon Monteith:mailto:kmonteith@mg-ins.com
+UID:229cdokc61b9cnpu228sm9hkel@google.com
+SEQUENCE:0
+DESCRIPTION:\n\n==========\n\nPhone:- (313) 466-7426\nEmail:- <a href="mail
+ to:morganambrose@proton.me" target="_blank">morganambrose@proton.me</a>\n\n
+ Need to make a change to this event?\nReschedule:-\n<a href="https://www.go
+ ogle.com/url?q=https://msgsndr.com/widget/booking/KqlBxToICHxDK1xZTrI9?even
+ t_id%3DdiscLrIqY6RIVnae6Ifv&amp\;sa=D&amp\;source=calendar&amp\;ust=1783180
+ 024856303&amp\;usg=AOvVaw131LrOqmajEiINM1Wv916E" target="_blank">https://ms
+ gsndr.com/widget/booking/KqlBxToICHxDK1xZTrI9?event_id=discLrIqY6RIVnae6Ifv
+ </a>\n\nCancel:-\n<a href="https://www.google.com/url?q=https://msgsndr.com
+ /widget/cancel-booking?event_id%3DdiscLrIqY6RIVnae6Ifv&amp\;sa=D&amp\;sourc
+ e=calendar&amp\;ust=1783180024856303&amp\;usg=AOvVaw1ELfP092OwWThHlrIX3n9k"
+  target="_blank">https://msgsndr.com/widget/cancel-booking?event_id=discLrI
+ qY6RIVnae6Ifv</a>
+LOCATION:meet.mg-ins.com
+SUMMARY:Morgan Naranjo - VO Follow Up
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=morganambrose@
+ proton.me;X-NUM-GUESTS=0;X-PM-TOKEN=0dc0b244b2bb8197eac1e668a2963598235f51b
+ 1;PARTSTAT=ACCEPTED:mailto:morganambrose@proton.me
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Kishon Monteit
+ h;X-NUM-GUESTS=0;X-PM-TOKEN=48e7cc32991dbc66d203e4f84b170167f93e5021;PARTST
+ AT=ACCEPTED:mailto:kmonteith@mg-ins.com
+BEGIN:VALARM
+DESCRIPTION:Morgan Naranjo - VO Follow Up
+TRIGGER:-PT15M
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+SUMMARY:Morgan Naranjo - VO Follow Up
+DESCRIPTION:Morgan Naranjo - VO Follow Up
+ATTENDEE:mailto:MorganAmbrose@proton.me
+TRIGGER:-PT15M
+ACTION:EMAIL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN=Troy Gonzalez:mailto:tgonzalez@gobairdgo.com
+UID:040000008200E00074C5B7101A82E008000000005856A319E50FDD01000000000000000
+ 010000000F3D8C0795FD0B94DAF8DC07220D86A14
+DTSTART;TZID=America/Chicago:20260714T153000
+DTEND;TZID=America/Chicago:20260714T155000
+DTSTAMP:20260709T205416Z
+SEQUENCE:1
+DESCRIPTION;LANGUAGE=en-US:Event Name\nOffice\n\nPlease share anything that
+  will help prepare for our meeting.: https://www.indeed.com/viewjob?jk=3788
+ 877dd234ee77\n\nNeed to make changes to this event? Cancel<https://calendly
+ .com/cancellations/ee0c827f-c412-48e6-aa11-66c30cfe7295> Reschedule<https:/
+ /calendly.com/reschedulings/ee0c827f-c412-48e6-aa11-66c30cfe7295>\nPowered 
+ by Calendly<https://calendly.com/booking-badge?utm_medium=product_referral&
+ utm_source=calendar_invitation&utm_campaign=invitee_html_emails&utm_content
+ =try_calendly_free>\n______________________________________________________
+ __________________________\nMicrosoft Teams meeting\nJoin: https://teams.mi
+ crosoft.com/meet/2563546779776?p=hMzg5skgCJf6ko8Vtx\nMeeting ID: 256 354 67
+ 7 977 6\nPasscode: rV7hb2vD\n________________________________\nNeed help?<h
+ ttps://aka.ms/JoinTeamsMeeting?omkt=en-US> | System reference<https://teams
+ .microsoft.com/l/meetup-join/19%3ameeting_Y2M2ZTdlNjctZTYzOS00MDExLWEzMmMtM
+ DJhOTZmYTI3MzBh%40thread.v2/0?context=%7b%22Tid%22%3a%2277f49728-506a-4425-
+ 8f34-98294e2e1efc%22%2c%22Oid%22%3a%224a595ec1-06ab-4f15-b8ea-81ba0863a636%
+ 22%7d>\nFor organizers: Meeting options<https://teams.microsoft.com/meeting
+ Options/?organizerId=4a595ec1-06ab-4f15-b8ea-81ba0863a636&tenantId=77f49728
+ -506a-4425-8f34-98294e2e1efc&threadId=19_meeting_Y2M2ZTdlNjctZTYzOS00MDExLW
+ EzMmMtMDJhOTZmYTI3MzBh@thread.v2&messageId=0&language=en-US>\n_____________
+ ___________________________________________________________________\n
+SUMMARY;LANGUAGE=en-US:Morgan Naranjo and Troy Gonzalez
+LOCATION;LANGUAGE=en-US:https://calendly.com/events/3c33d436-2931-4e03-b7e4
+ -d872243686ad/microsoft_teams
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Morgan Naranjo;X-PM-TOKEN=d85616
+ 642a298aa4bb7526f32f425ff3c4ff59c7;PARTSTAT=ACCEPTED:mailto:morganambrose@p
+ roton.me
+BEGIN:VALARM
+DESCRIPTION:Morgan Naranjo and Troy Gonzalez
+TRIGGER:-PT15M
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+SUMMARY:Morgan Naranjo and Troy Gonzalez
+DESCRIPTION:Morgan Naranjo and Troy Gonzalez
+ATTENDEE:mailto:MorganAmbrose@proton.me
+TRIGGER:-PT15M
+ACTION:EMAIL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260720T123000
+DTEND;TZID=America/Chicago:20260720T130000
+DTSTAMP:20260713T205356Z
+ORGANIZER;CN=Coordinator Calendar :mailto:bigcommerce.com_tknud83vr0vml5mq8
+ r5pnnef4k@group.calendar.google.com
+UID:gt0126f15c3abb8959a344801c6784aff6fe747f8b8e12d60a163e9322724fe87a@goog
+ le.com
+SEQUENCE:0
+DESCRIPTION:Itinerary: Morgan N<br />Monday\, Jul 20\, 2026 MDT<br/><br/>11
+ :30AM (MDT) - 12:00PM (MDT): Katie Edenfield (Senior Talent Acquisition Rec
+ ruiter)<br/><br/><strong>How to Prepare for Your Video Interview</strong><b
+ r/><br/>Your upcoming interview will be conducted via video\, and we want t
+ o help you feel fully prepared.<br/><br/>During the interview process we us
+ e Gemini to record and take notes during our call so that we can focus on y
+ ou as the candidate.<br/><br/>Recording and transcribing the call are volun
+ tary and have no impact on your candidacy. Any data collected will be handl
+ ed confidentially in accordance with our data practices outlined in our emp
+ loyee and job applicant <a href="https://www.commerce.com/careers/privacy/"
+ >Privacy Policies</a> and you may opt-out of this practice at any time befo
+ re or after the call.<br/><br/>Here are a few tips to ensure a smooth exper
+ ience:<br/><br/><ul><li><strong>Be camera-ready:</strong> As part of our st
+ andard process\, we ask all candidates to have their video on during the in
+ terview. This helps us create a more engaging and personal conversation.</l
+ i><li><strong>Find a quiet space:</strong> Please make sure you're in a qui
+ et\, distraction-free environment so we can hear you clearly and minimize i
+ nterruptions.</li><li><strong>Test your technology:</strong> We recommend c
+ hecking your internet connection\, camera\, and microphone ahead of time to
+  avoid any technical hiccups.</li></ul>If you have any questions or need ac
+ commodations\, feel free to reach out to Katie Edenfield - katie.edenfield@
+ bigcommerce.com <br/><br/> Here's your event confirmation.<br />https://req
+ uest-availability.goodtime.io/intro/eQtY6goVaXIooXfx <br/><br/> <a href="ht
+ tps://portal.goodtime.io/candidate-portal/7388aef3-c67f-4d04-b355-5ec1c06ab
+ 326/fcf10273-e951-4065-9821-4c0b0d4eb75e/JOB_APPLICATION-3-189880"><b>Take 
+ me to my portal</b></a> <br/><br/> &lt\;&lt\;&lt\;&lt\;&lt\;&gt\;&gt\;&gt\;
+ &gt\;&gt\; \n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com
+ /rjg-rvxo-nyo\nOr dial: (US) +1 641-632-2308 PIN: 154175856#\nMore phone nu
+ mbers: https://tel.meet/rjg-rvxo-nyo?pin=2353718800875&hs=7\n\nLearn more a
+ bout Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease d
+ o not edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LOCATION:https://meet.google.com/rjg-rvxo-nyo
+SUMMARY:Commerce Video Interview: Morgan Naranjo - Senior Global GTM Enable
+ ment Manager
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Morgan Naranjo
+ ;X-NUM-GUESTS=0;X-PM-TOKEN=16f4fb2eddc74674d5cf208e982f92bcdac8ca77;PARTSTA
+ T=NEEDS-ACTION:mailto:morganambrose@proton.me
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN=Ann Shaw:mailto:Ann.Shaw@nationaldebtrelief.com
+UID:040000008200E00074C5B7101A82E0080000000018248462911BDD01000000000000000
+ 010000000C635D49B69E9234986E96ADD6C410FF9
+DTSTART;TZID=America/New_York:20260727T164500
+DTEND;TZID=America/New_York:20260727T171500
+DTSTAMP:20260724T172515Z
+SEQUENCE:1
+DESCRIPTION;LANGUAGE=en-US:Event Name\nVideo Interview - Inside Sales Repre
+ sentative\n\nPlease share anything that will help prepare for our meeting.:
+ \nInside Sales Representative\nhttps://www.indeed.com/viewjob?jk=3cb6fdfe36
+ 02e750&from=appshareandroid\n\nNeed to make changes to this event? Cancel<h
+ ttps://calendly.com/cancellations/8a732042-ad29-4905-815e-7f1760951dac> Res
+ chedule<https://calendly.com/reschedulings/8a732042-ad29-4905-815e-7f176095
+ 1dac>\nPowered by Calendly<https://calendly.com/booking-badge?utm_medium=pr
+ oduct_referral&utm_source=calendar_invitation&utm_campaign=invitee_html_ema
+ ils&utm_content=try_calendly_free>\n_______________________________________
+ _________________________________________\nMicrosoft Teams meeting\nJoin: h
+ ttps://teams.microsoft.com/meet/254506113459035?p=aRzLuEQpi81GV9yE2h\nMeeti
+ ng ID: 254 506 113 459 035\nPasscode: bL24jy2r\n___________________________
+ _____\nNeed help?<https://aka.ms/JoinTeamsMeeting?omkt=en-US> | System refe
+ rence<https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWE3Mjg1OTktMT
+ NkYy00ZDIxLTgxYWUtYmJmMWZiNDZmMzY5%40thread.v2/0?context=%7b%22Tid%22%3a%22
+ b8e73b63-f45a-4984-b97e-f93b846eae05%22%2c%22Oid%22%3a%22085fd49c-8167-4e16
+ -9830-8049246f671a%22%7d>\nDial in by phone\n+1 929-333-4964\,\,578100694#<
+ tel:+19293334964\,\,578100694#> United States\, New York City\nFind a local
+  number<https://dialin.teams.cloud.microsoft/e7677046-c3be-4d6f-b2b0-70f4b7
+ ba9e0e?id=578100694>\nPhone conference ID: 578 100 694#\nFor organizers: Me
+ eting options<https://teams.microsoft.com/meetingOptions/?organizerId=085fd
+ 49c-8167-4e16-9830-8049246f671a&tenantId=b8e73b63-f45a-4984-b97e-f93b846eae
+ 05&threadId=19_meeting_ZWE3Mjg1OTktMTNkYy00ZDIxLTgxYWUtYmJmMWZiNDZmMzY5@thr
+ ead.v2&messageId=0&language=en-US> | Reset dial-in PIN<https://dialin.teams
+ .cloud.microsoft/usp/pstnconferencing>\n___________________________________
+ _____________________________________________\n
+SUMMARY;LANGUAGE=en-US:Morgan Naranjo and Ann Shaw
+LOCATION;LANGUAGE=en-US:https://calendly.com/events/c71e8ff0-9646-40a4-9d35
+ -61c47e4bc513/microsoft_teams
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Morgan Naranjo;X-PM-TOKEN=17a193
+ a077baa05339a1c0d5fc16696a0430df8b;PARTSTAT=ACCEPTED:mailto:morganambrose@p
+ roton.me
+BEGIN:VALARM
+DESCRIPTION:Morgan Naranjo and Ann Shaw
+TRIGGER:-PT15M
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+SUMMARY:Morgan Naranjo and Ann Shaw
+DESCRIPTION:Morgan Naranjo and Ann Shaw
+ATTENDEE:mailto:MorganAmbrose@proton.me
+TRIGGER:-PT15M
+ACTION:EMAIL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260728T153000
+DTEND;TZID=America/Chicago:20260728T154500
+DTSTAMP:20260726T205209Z
+ORGANIZER;CN=Fred Roethlisberger:mailto:fredr.sfg@gmail.com
+UID:lr2uguddgvhh89lrsnt5j2f11c@google.com
+SEQUENCE:0
+DESCRIPTION:Event Name\nFirst Interview w/ Roethlisberger Agency\n\nThank y
+ ou for your interest in joining The Roethlisberger Agency! This first conve
+ rsation is an opportunity for us to get to know each other better. We’ll 
+ discuss your background\, career goals\, and how your skills align with the
+  agency’s mission and values.\n\nWhat to Expect:\n\n• A 15 minute conve
+ rsation with our hiring team\, this will be held through zoom.\n\n\nPlease
+  accept the calendar invite so we know you received it properly!\n\nWe lo
+ ok forward to meeting you!\n\n\n-The Roethlisberger Agency\n\nLocation: Thi
+ s is a Zoom web conference.\n\nYou can join this meeting from your computer
+ \, tablet\, or smartphone.\nhttps://us06web.zoom.us/j/82936411478\n\nOne ta
+ p mobile:\n+1 646 931 3860\,\,82936411478#\n+1 929 205 6099\,\,82936411478#
+ \n\nYou can also dial in using your phone.\nUS: +1 646 931 3860\, +1 929 20
+ 5 6099\, +1 301 715 8592\, +1 305 224 1968\, +1 309 205 3325\, +1 312 626 6
+ 799\, +1 360 209 5623\, +1 386 347 5053\, +1 507 473 4847\, +1 564 217 2000
+ \, +1 669 444 9171\, +1 669 900 6833\, +16892781000\, +1 719 359 4580\, +1 
+ 253 205 0468\, +1 253 215 8782\, +1 346 248 7799\nMeeting ID: 829-364-11478
+ \n\nJoin from a video system or application\nsip:82936411478@zoomcrc.com\nY
+ ou can also dial and enter your meeting ID 829-364-11478\n\nPhone Number: +
+ 1 313-466-7426\n\nUSA - Location (State): Texas\n\nDo you hold an active Li
+ fe and Health Insurance License? (don't worry\, we will direct you on how t
+ o get licensed if you're not yet!): Unlicensed\n\nDid you watch the short (
+ 3min) overview video that goes over all the details of who we are\, what we
+  do and how we do it?: Yes\n\nThis is a 1099\, commission + bonus position.
+  Does that resonate with what you're looking for?: Yes\n\nWhy does this opp
+ ortunity interest you?: Want to return to an industry that more closer reso
+ nates with me\, the agency seems marketable from the outside in and it give
+ s me a chance to ease back into it and find success\n\nWhere did you first 
+ hear about this opportunity?: LinkedIn\n\nNeed to make changes to this even
+ t?\nCancel: https://calendly.com/cancellations/9a5890a7-5275-4e3e-b871-df80
+ 2aa53d31\nReschedule: https://calendly.com/reschedulings/9a5890a7-5275-4e3e
+ -b871-df802aa53d31\n
+LOCATION:https://us06web.zoom.us/j/82936411478
+SUMMARY:Morgan Naranjo and Fred Roethlisberger
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Fred Roethlisb
+ erger;X-NUM-GUESTS=0;X-PM-TOKEN=11abf5a0b26776cc0835300c086d2a59a76e6a75;PA
+ RTSTAT=ACCEPTED:mailto:fredr.sfg@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=morganambrose@
+ proton.me;X-NUM-GUESTS=0;X-PM-TOKEN=bd1fce2fd6b9c669fe8c8dc06dcdd29d507f822
+ 3;PARTSTAT=ACCEPTED:mailto:morganambrose@proton.me
+BEGIN:VALARM
+DESCRIPTION:Morgan Naranjo and Fred Roethlisberger
+TRIGGER:-PT15M
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+SUMMARY:Morgan Naranjo and Fred Roethlisberger
+DESCRIPTION:Morgan Naranjo and Fred Roethlisberger
+ATTENDEE:mailto:MorganAmbrose@proton.me
+TRIGGER:-PT15M
+ACTION:EMAIL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260727T171736Z
+UID:leadconnector-ty63Ez3SNQcqUAYY8FML
+DTSTART:20260729T230000Z
+DTEND:20260729T234500Z
+ORGANIZER;CN=Amy Anderson:mailto:amyanderson79@icloud.com
+SEQUENCE:0
+LOCATION:https://us06web.zoom.us/j/9716286073
+SUMMARY:Morgan Ambrose - Anderson Agency Corporate Overview
+TRANSP:OPAQUE
+ATTENDEE;CN=Morgan Ambrose;X-PM-TOKEN=e836754bab0d702adcd176f1cee2ea69522a1
+ 297;PARTSTAT=ACCEPTED:mailto:morganambrose@proton.me
+BEGIN:VALARM
+DESCRIPTION:Morgan Ambrose - Anderson Agency Corporate Overview
+TRIGGER:-PT15M
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+SUMMARY:Morgan Ambrose - Anderson Agency Corporate Overview
+DESCRIPTION:Morgan Ambrose - Anderson Agency Corporate Overview
+ATTENDEE:mailto:MorganAmbrose@proton.me
+TRIGGER:-PT15M
+ACTION:EMAIL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260727T172111Z
+UID:calendly-1657671318
+DTSTART:20260728T170000Z
+DTEND:20260728T173000Z
+ORGANIZER;CN=salesQB:mailto:no-reply@calendly.com
+SEQUENCE:0
+DESCRIPTION:Event Name: salesQB Initial Call\nEvent Description: We look fo
+ rward to speaking soon. Please call us at the number provided.\nDate & Time
+ : 11:00am - 11:30am (Mountain Time - US & Canada) on Tuesday\, July 28\, 20
+ 26\nLocation: Please call us at (667) 770-1426 and use code 9286159#\n\nNee
+ d to make changes to this event?\nCancel: https://calendly.com/cancellation
+ s/8d74b140-e3f4-4815-ba0b-7e12a422afc1\nReschedule: https://calendly.com/re
+ schedulings/8d74b140-e3f4-4815-ba0b-7e12a422afc1\n
+LOCATION:Please call us at (667) 770-1426 and use code 9286159#
+SUMMARY:salesQB Initial Call with salesQB
+TRANSP:OPAQUE
+ATTENDEE;X-PM-TOKEN=1cde3504caa2f4730a997a92f4cbfcc0fcb61ac0;PARTSTAT=ACCEP
+ TED:mailto:morganambrose@proton.me
+BEGIN:VALARM
+DESCRIPTION:salesQB Initial Call with salesQB
+TRIGGER:-PT15M
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+SUMMARY:salesQB Initial Call with salesQB
+DESCRIPTION:salesQB Initial Call with salesQB
+ATTENDEE:mailto:MorganAmbrose@proton.me
+TRIGGER:-PT15M
+ACTION:EMAIL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260728T131302Z
+ORGANIZER;CN=Giovanna Cuesta;SENT-BY="MAILTO:nationaldebtrelief+email+htsp-
+ ebc8ca7eac@talent.icims.com":mailto:nationaldebtrelief+email+htsp-ebc8ca7ea
+ c@talent.icims.com
+DTSTART:20260730T150000Z
+DTEND:20260730T160000Z
+SEQUENCE:1
+UID:47f9e7f9-39a0-483f-9db8-6bdfbef9d4f1@iCIMS
+SUMMARY:Interview with National Debt Relief LLC for Inside Sales Representa
+ tive Position
+DESCRIPTION:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ ~~~~~~~~~~~~~~~~~\nInterview with National Debt Relief LLC for Inside Sales
+  Representative Position\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n[[ Required Attendees ]]\nMorgan Naranjo
+  <MorganAmbrose@proton.me>\n\nHello Morgan\,\n\n\nThank you for taking the 
+ time to learn more about National Debt Relief and the Inside Sales Represen
+ tative position. We're excited to get to know more about your experience an
+ d have lined up the next steps of the interview process for you. \n\n\nYou 
+ will be meeting with Clyde Owusu from the Sales team. Please join 5 minutes
+  early.\n\n\nTime: Thursday\, July 30th at 10:00 AM CST (11:00 AM EST for r
+ eference)\nTeams Video Meeting: \n\nhttps://teams.microsoft.com/meet/215331
+ 526775809?p=EchMwMxgTxh5FtxSWf<https://teams.microsoft.com/meet/21533152677
+ 5809?p=EchMwMxgTxh5FtxSWf>\n\nMeeting ID: 215 331 526 775 809\nPasscode: 92
+ 2df3uM \n\n\n\nPlease confirm your acceptance. Please see below for quick t
+ ips to help you prepare for your virtual interview. We look forward to hear
+ ing from you! \n\n\nVirtual Interview Tips\n\n\nTechnical Setup\n- We’re 
+ using Microsoft Teams for your video interview. You can join via the web\, 
+ no download required.\n- We recommend joining from a laptop or desktop for 
+ the best audio\, video and connection quality.\n- Test your background appe
+ arance (neutral\, uncluttered\, and well-lit). \n- Join the meeting 5 minut
+ es early to allow time to resolve any technical issues.\nContent Preparatio
+ n\n- Research about National Debt Relief and the role (review the job descr
+ iption). \n- Prepare to have specifics when asked situational or behavioral
+  questions.   \n- Tip: Prepare STAR Method Responses (Situation\, Task\, Ac
+ tion\, Result).\n\n- Prepare questions to ask the interviewer. \nInterview 
+ Day\n- Dress code is business casual. Think neat and organized\, like a pol
+ o or blouse. Business professional is fine with us too. We just recommend a
+ voiding overly casual items such as hoodies or hats during the interview pr
+ ocess.\n- Maintain good posture\, eye contact\, and enthusiasm throughout t
+ he interview.\n- Eliminate distractions such as silencing your phone/apps.\
+ n\n\nThank you\, \n\n\nGiovanna Cuesta \nGiovanna.Cuesta@nationaldebtrelief
+ .com \nNational Debt Relief
+ATTENDEE;CN=Morgan Naranjo;RSVP=TRUE;ROLE=REQ-PARTICIPANT;X-PM-TOKEN=851b33
+ 6ef70510be0878b7d5fba2bf752004d9ad;PARTSTAT=ACCEPTED:mailto:MorganAmbrose@p
+ roton.me
+BEGIN:VALARM
+DESCRIPTION:Interview with National Debt Relief LLC for Inside Sales Repres
+ entative Position
+TRIGGER:-PT15M
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+SUMMARY:Interview with National Debt Relief LLC for Inside Sales Representa
+ tive Position
+DESCRIPTION:Interview with National Debt Relief LLC for Inside Sales Repres
+ entative Position
+ATTENDEE:mailto:MorganAmbrose@proton.me
+TRIGGER:-PT15M
+ACTION:EMAIL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Paris:20260731T173000
+DTEND;TZID=Europe/Paris:20260731T180000
+DTSTAMP:20260728T164251Z
+ORGANIZER;CN=Philippe PINAULT:mailto:philippe@talkspirit.com
+UID:osflfvu37belnp16594q28io9k@google.com
+SEQUENCE:0
+DESCRIPTION:<b>Booked by</b>\nAmbrosío Morgan\nMorganAmbrose@proton.me\n\n
+ -::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/aan-mztu-xpr\n
+ Or dial: (FR) +33 1 87 40 24 30 PIN: 168952530#\nMore phone numbers: https:
+ //tel.meet/aan-mztu-xpr?pin=4294683957302&hs=7\n\nLearn more about Meet at:
+  https://support.google.com/a/users/answer/9282720\n\nPlease do not edit th
+ is section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~::~:~::-
+LOCATION:https://meet.google.com/aan-mztu-xpr
+SUMMARY:Talkspirit (30 min) (Ambrosío Morgan)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Philippe PINAU
+ LT;X-NUM-GUESTS=0;X-PM-TOKEN=35cc6e0be34574ec161f4333547c7ff529e955f4;PARTS
+ TAT=ACCEPTED:mailto:philippe@talkspirit.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=morganambrose@
+ proton.me;X-NUM-GUESTS=0;X-PM-TOKEN=32decd6e435f2e84fcef60db79cbb1289d639dd
+ 4;PARTSTAT=ACCEPTED:mailto:morganambrose@proton.me
+BEGIN:VALARM
+DESCRIPTION:Talkspirit (30 min) (Ambrosío Morgan)
+TRIGGER:-PT15M
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+SUMMARY:Talkspirit (30 min) (Ambrosío Morgan)
+DESCRIPTION:Talkspirit (30 min) (Ambrosío Morgan)
+ATTENDEE:mailto:MorganAmbrose@proton.me
+TRIGGER:-PT15M
+ACTION:EMAIL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260728T191335Z
+UID:6a68ff5f3075b319284ecea4+69b7a51445d6b59559d5@invite.cronofy.com
+DTSTART;TZID=America/Chicago:20260728T150000
+DTEND;TZID=America/Chicago:20260728T151500
+ORGANIZER;CN=Outbound Sales Supervisor:mailto:organizer@invite.cronofy.com
+SEQUENCE:1
+DESCRIPTION:David Russell\n3:00 PM - 3:15 PM\, CDT\n\n
+SUMMARY:Outbound Sales Supervisor
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0;RSVP=TRUE;X-
+ PM-TOKEN=8ae0b52f4f807901d53576a8e007c605d68b0a59;PARTSTAT=ACCEPTED:mailto:
+ MorganAmbrose@proton.me
+BEGIN:VALARM
+DESCRIPTION:Outbound Sales Supervisor
+TRIGGER:-PT15M
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+SUMMARY:Outbound Sales Supervisor
+DESCRIPTION:Outbound Sales Supervisor
+ATTENDEE:mailto:MorganAmbrose@proton.me
+TRIGGER:-PT15M
+ACTION:EMAIL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260728T211030Z
+UID:calendly-1658977982
+DTSTART:20260730T180000Z
+DTEND:20260730T184500Z
+ORGANIZER;CN=The Roethlisberger Agency:mailto:no-reply@calendly.com
+SEQUENCE:0
+DESCRIPTION:Event Name: Meet + Greet\nEvent Description: Join us for a Meet
+  + Greet where you’ll have the chance to connect with us\, learn more abo
+ ut who we are\, and ask any questions you may have about partnering with Th
+ e Roethlisberger Agency.Please expect to be on camera\, engaged and ready. 
+ Be sure to confirm your attendance when booking. We’re looking forward to
+  meeting you!\nDate & Time: 12:00pm - 12:45pm (Mountain Time - US & Canada)
+  on Thursday\, July 30\, 2026\nLocation: https://us06web.zoom.us/j/98950636
+ 57?omn=84690360730\n\nPhone Number: +1 313-466-7426\n\nNeed to make changes
+  to this event?\nCancel: https://calendly.com/cancellations/d56c2a54-420a-4
+ b7f-80df-ee7b4ada75a1\nReschedule: https://calendly.com/reschedulings/d56c2
+ a54-420a-4b7f-80df-ee7b4ada75a1\n
+LOCATION:https://us06web.zoom.us/j/9895063657?omn=84690360730
+SUMMARY:Meet + Greet with The Roethlisberger Agency
+TRANSP:OPAQUE
+ATTENDEE;X-PM-TOKEN=586e6b5bee6d932fa9dbca6cca5cac40edeffb95;PARTSTAT=ACCEP
+ TED:mailto:morganambrose@proton.me
+BEGIN:VALARM
+DESCRIPTION:Meet + Greet with The Roethlisberger Agency
+TRIGGER:-PT15M
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+SUMMARY:Meet + Greet with The Roethlisberger Agency
+DESCRIPTION:Meet + Greet with The Roethlisberger Agency
+ATTENDEE:mailto:MorganAmbrose@proton.me
+TRIGGER:-PT15M
+ACTION:EMAIL
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260729T190000
+DTEND;TZID=America/New_York:20260729T194500
+DTSTAMP:20260729T143915Z
+ORGANIZER;CN=Interviews :mailto:a10e3dca309babedc6bb0eb4a7046e3df4caef07274
+ f7ed9ad958bdbac36689f@group.calendar.google.com
+UID:726cf7uj95tki48s485fg0gioo@google.com
+SEQUENCE:0
+DESCRIPTION:\n\n==========\n\nPhone:- (313) 466-7426\nEmail:- morganambrose
+ @proton.me\n
+LOCATION:https://us06web.zoom.us/j/9716286073
+SUMMARY:Morgan Ambrose - Anderson Agency Corporate Overview
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Morgan Ambrose
+ ;X-NUM-GUESTS=0;X-PM-TOKEN=921fb9530543c43fee8413f65ce28564ccee2df4;PARTSTA
+ T=NEEDS-ACTION:mailto:morganambrose@proton.me
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Stockdale, Kimberly":mailto:kimberly.stockdale@hp.com
+UID:040000008200E00074C5B7101A82E00800000000B22BAA4C6E1FDD01000000000000000
+ 01000000098A12D823340594ABFF37F0D3A682E7C
+DTSTART;TZID=America/Chicago:20260804T110000
+DTEND;TZID=America/Chicago:20260804T113000
+DTSTAMP:20260729T152409Z
+SEQUENCE:1
+DESCRIPTION;LANGUAGE=en-US:Please find Interview Details for Software GTM S
+ trategy & Planning at HP:\nAgenda:\n  \nInterview  \n04 Aug 2026 | 11:00 AM
+  - 11:30 AM America/Chicago (CDT)  \nKimberly Stockdale  \nVideo Conferenci
+ ng Link: https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZDYyMDNkODU
+ tZDY3Ny00ODQ1LThjMDMtYzA4ZTQ5MzhlYWU0%40thread.v2/0?context=%7b%22Tid%22%3a
+ %22ca7981a2-785a-463d-b82a-3db87dfc3ce6%22%2c%22Oid%22%3a%227778d4ca-5239-4
+ a80-b7da-70b95a6b5439%22%7d  \nMeeting ID: 226248964771817  \nPasscode: P5g
+ E2Dr7  \n  \nJob Description:\nhttps://apply.hp.com/careers/job/43203529\n 
+  \nPowered by Eightfold AI - www.eightfold.ai\n
+SUMMARY;LANGUAGE=en-US:Morgan Ambrose + HP
+LOCATION;LANGUAGE=en-US:https://teams.microsoft.com/l/meetup-join/19%3ameet
+ ing_ZDYyMDNkODUtZDY3Ny00ODQ1LThjMDMtYzA4ZTQ5MzhlYWU0%40thread.v2/0?context=
+ %7b%22Tid%22%3a%22ca7981a2-785a-463d-b82a-3db87dfc3ce6%22%2c%22Oid%22%3a%22
+ 7778d4ca-5239-4a80-b7da-70b95a6b5439%22%7d
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=morganambrose@proton.me;X-PM-TOK
+ EN=8de0212fc36e2b9650ac048792f4cc91d9f68687;PARTSTAT=NEEDS-ACTION:mailto:mo
+ rganambrose@proton.me
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260729T190000
+DTEND;TZID=America/New_York:20260729T194500
+DTSTAMP:20260729T182922Z
+ORGANIZER;CN=Amy Anderson:mailto:andersonagencyteam.sfg@gmail.com
+UID:bj3mt39mrj94jn5osrjbsmb9qk@google.com
+SEQUENCE:0
+DESCRIPTION:\n\n==========\n\nPhone:- (313) 466-7426\nEmail:- morganambrose
+ @proton.me\n
+LOCATION:https://us06web.zoom.us/j/9716286073
+SUMMARY:Morgan Ambrose - Anderson Agency Corporate Overview
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Amy Anderson;X
+ -NUM-GUESTS=0;X-PM-TOKEN=da57aae3d16aa70bca2a7c0763642e5e56c97253;PARTSTAT=
+ ACCEPTED:mailto:andersonagencyteam.sfg@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Morgan Ambrose
+ ;X-NUM-GUESTS=0;X-PM-TOKEN=4df01685b917bb98fdb6a5725bdab9d53ad1aecd;PARTSTA
+ T=NEEDS-ACTION:mailto:morganambrose@proton.me
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Detroit:20260730T160000
+DTEND;TZID=America/Detroit:20260730T161500
+DTSTAMP:20260729T191410Z
+ORGANIZER;CN=Julia Berman:mailto:julia@theperfectfranchise.com
+UID:bb8eindknubgdgeckkpt8as8mo@google.com
+SEQUENCE:0
+DESCRIPTION:Event Name\nFranchise Intro\n\n\nLocation: +1 313-466-7426\n\nN
+ eed to make changes to this event?\nCancel: https://calendly.com/cancellati
+ ons/faee49e0-e2a3-44f3-88e8-b4d295a49ada\nReschedule: https://calendly.com/
+ reschedulings/faee49e0-e2a3-44f3-88e8-b4d295a49ada\n\nPowered by Calendly.c
+ om\n
+LOCATION:+1 313-466-7426
+SUMMARY:Morgan Ambrose and Julia Berman
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=Julia Berman;X
+ -NUM-GUESTS=0;X-PM-TOKEN=13b4d0f21383482c30bc52a1921dab9b11e21828;PARTSTAT=
+ ACCEPTED:mailto:julia@theperfectfranchise.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN=morganambrose@
+ proton.me;X-NUM-GUESTS=0;X-PM-TOKEN=25a826fccf4f1f128bf7815d14127b8ee8842b1
+ 7;PARTSTAT=NEEDS-ACTION:mailto:morganambrose@proton.me
+END:VEVENT
+END:VCALENDAR
